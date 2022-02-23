@@ -398,13 +398,21 @@ margin: 0;}
     .logo__titulo{width: 200px;
     height: 170px;}
 
+    header{
+        background-image: linear-gradient(green, rgb(255, 255, 255));
+    }
+
     .imagenes{
         display: flex;
         height: 330px;
         width: 430px;
         padding: 7px;
         margin-left: 10px;
+        position: relative;
     }
+
+    .imagenes :hover{ height: 400px;
+    cursor: ;}
 
 
     .contenido{
@@ -547,6 +555,4 @@ margin-top: -60px;}
         .footer__emailc{
         margin-left: 78%;
         }
-
-
 }
