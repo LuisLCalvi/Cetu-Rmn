@@ -8,6 +8,15 @@ margin: 0;}
     background-color:rgb(216, 216, 186);
 }
 
+.clarito{background-color: rgb(216, 216, 186);
+border: 1px solid rgb(70, 141, 108);}
+
+ul li :hover{background-color: rgb(255, 255, 255);}
+
+ul ul li{background-color: rgb(216, 216, 186);}
+
+ul ul li :hover{background-color: rgb(255, 255, 255);}
+
     header{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 25px black solid;
@@ -15,6 +24,8 @@ margin: 0;}
         grid-area: header;
         background-color: rgb(70, 141, 108);
     }
+
+
     .logo__titulo{
         display:flex;
         height: 100px;
@@ -22,42 +33,10 @@ margin: 0;}
         flex-wrap: wrap;
     }
 
-    ul{
-        list-style: none;
-        text-decoration: none;
-        display: flex;
-        background-color: rgb(216, 216, 186);
-        border-color: rgb(216, 216, 186);
-        font-family: Arial, Helvetica, sans-serif;
-        font: 10px;
-        justify-content: space-around;
-    }
-
-    li{
-        display:inline-table;
-    }
-    ul li ul li{
-        list-style: none;
-        background-color: rgb(216, 216, 186);
-    
-    }
-    ul ul li{
-        display: block;
-    }
-
-    ul ul{
-        display: none;
-    }
-
-    ul li:hover ul{
-        display:block
-
-    }
     a{
         text-decoration: none;
     }
     .imagenes{
-        display: none;
         grid-area: imagenes;
     }
     footer{
@@ -108,7 +87,7 @@ margin: 0;}
         
         grid-template-areas:
         "header"
-        "imagnes"
+        "imagenes"
         "contenido"
         "publicidad"
         "footer";
@@ -195,9 +174,10 @@ margin: 0;}
     @media screen and (min-width: 500px){
         .father{
             grid-template-columns: 3fr, 7fr, 1fr;
-            grid-template-rows: 2fr, 7fr,3fr;
+            grid-template-rows: 2fr,  5fr, 7fr,3fr;
             grid-template-areas:
             "header       header      header"
+            "imagenes     imagenes    publicidad"
             "contenido    contenido   publicidad"
             "footer       footer      footer";
             
@@ -224,45 +204,7 @@ margin: 0;}
             font-family: 'Open Sans', sans-serif;
             text-align: center;}
 
-            ul{
-                display: flex;
-                list-style: none;
-                font-size: 0;
-                font-weight: bold;
-                padding: 5px;
-                margin-top: 10px;
-                border: 1px solid rgb(216, 216, 186);
-                font-family: 'Open Sans', sans-serif;
-                color: black; 
-                background-color: rgb(216, 216, 186);
-            }
             
-            li{ 
-            display: inline-block;
-            width: 16%;
-            font-size: 20px;
-            
-            margin-top: 0;
-            color: rgb(216, 216, 186);
-            
-            }
-            
-            ul ul {position: absolute;
-            display:none;
-            
-            color: black;
-            }
-            
-            ul ul li {display: block;
-            font-size: 15px;
-            margin: 5px;
-            position: relative;
-            
-            background-color: rgb(216, 216, 186);}
-            
-            ul li:hover ul{
-                display:inline-block;
-            }
 
         .contenido{
             display: flex;
@@ -385,43 +327,49 @@ margin: 0;}
         gap: 10px;
     }
 
-
-    ul{ background-color: rgb(167, 167, 120);
-    border: 1px solid black;}
-
-    ul :hover{background-color: rgb(216, 216, 186);
-    cursor: all-scroll;
-}
-        
-
-
     .logo__titulo{width: 200px;
     height: 170px;}
+
+    nav{
+        margin-top: 5px;
+    }
 
     .imagenes{
         display: flex;
         height: 330px;
         width: 430px;
         padding: 7px;
-        margin-left: 10px;
+        margin-left: 350px;
+        margin
     }
 
 
+    .cervical{height: 330px;
+    width: 500px;}
+
+    .encefalo{height: 330px;}
+
+
     .contenido{
-        background-color: rgb(161, 64, 64);
+        
         border: 1px solid black;
 
     }
 
+    .contenido__parrafo1{
+        margin-bottom: 50px;
+    }
+
+
 
     .publicidad{
-        background-color: chartreuse;
+        
         border: 1px solid black;
 
     }
 
     .footer{
-        background-color: yellowgreen;
+        
         border: 1px solid black;
     }
 
@@ -432,21 +380,22 @@ margin: 0;}
     .footer__logos{
         display: flex;
         flex-direction: column;
-        margin-left: 75%;
-        width: 20px;
-        height: 20px;
-    padding: 5px;
-margin-bottom: 36px;
-margin-top: -60px;}
+        margin-left: 72%;
+        width: 34px;
+        height: 34px;
+        padding: 5px;
+        margin-bottom: 40px;
+        margin-top: -76px;}
 
     .footer__telefono{
-        margin-left: 78%;
+        margin-left: 75%;
+        margin-top: -66px;
     }
     .footer__whatsapp{
-        margin-left: 78%;
+        margin-left: 75%;
     }
     .footer__email{
-        margin-left: 78%;
+        margin-left: 75%;
     }
 
     /*NOSOTROS*/
@@ -472,23 +421,24 @@ margin-top: -60px;}
     }
 
     .footer__logosn{
-    display: flex;
-    flex-direction: column;
-    margin-left: 75%;
-    width: 20px;
-    height: 20px;
-    padding: 5px;
-    margin-bottom: 36px;
-    margin-top: -60px;}
+        display: flex;
+        flex-direction: column;
+        margin-left: 72%;
+        width: 34px;
+        height: 34px;
+        padding: 5px;
+        margin-bottom: 40px;
+        margin-top: -76px;}
 
     .footer__telefonon{
-    margin-left: 78%;
+        margin-left: 75%;
+        margin-top: -66px;
     }
     .footer__whatsappn{
-    margin-left: 78%;
+    margin-left: 75%;
     }
     .footer__emailn{
-    margin-left: 78%;
+    margin-left: 75%;
     }
 
     /*CONTACTO*/
@@ -531,21 +481,22 @@ margin-top: -60px;}
     .footer__logosc{
         display: flex;
         flex-direction: column;
-        margin-left: 75%;
-        width: 20px;
-        height: 20px;
+        margin-left: 72%;
+        width: 34px;
+        height: 34px;
         padding: 5px;
-        margin-bottom: 36px;
-        margin-top: -60px;}
+        margin-bottom: 40px;
+        margin-top: -76px;}
     
         .footer__telefonoc{
-        margin-left: 78%;
+            margin-left: 75%;
+            margin-top: -66px;;
         }
         .footer__whatsappc{
-        margin-left: 78%;
+        margin-left: 75%;
         }
         .footer__emailc{
-        margin-left: 78%;
+        margin-left: 75%;
         }
 
 
