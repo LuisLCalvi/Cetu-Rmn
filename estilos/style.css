@@ -473,13 +473,13 @@ ul ul li :hover{background-color: rgb(255, 255, 255);}
         margin-left: 10px;
         height: 400px;
         border: 1px black solid;
-        background-color: aliceblue;
+        background-color: rgb(129, 177, 129);
         
 
     }
 
     .contenido__contacto{
-        background-color: rgb(129, 177, 129);
+        background-color: rgb(216, 216, 186);
     }
 
     .mapa__contacto{
@@ -514,9 +514,103 @@ ul ul li :hover{background-color: rgb(255, 255, 255);}
 
     /*Equipos*/
 
-    .eresonancia{margin-left: 20px;
+    /*Resonancia*/
+    .eresonancia__titulo{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 90px solid black;
+    }   
+    
+    
+    
+    
+    .eresonancia__contenido{
+        margin-left: 20px;
+        height: 800px;
+        width: 700px;
+        border: 1px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    
+
+    .resoimagenes{
+        height: 400px;
+        width: 450px;
+        margin-left: 810px;
+        margin-top: -780px;
+    }
+
+    /*Densitometria*/
+
+    .edensitometria__titulo{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .edensitometria__contenido{
+        margin-left: 50px;
+        margin-top: 100px;
+        width: 400px;
+        border: 1px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+
+    .edensitometria__imagenes{
+        height: 300px;
+        width: 650px;
+        margin-left: 650px;
+        margin-top: -360px;
         
     }
+
+    /*Tomografia*/
+    .etomografia__titulo{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .etomografia__contenido{
+        margin-left: 20px;
+        width: 600px;
+        border: 1px black solid;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .etomografia__imagenes{
+        height: 300px;
+        width: 600px;
+        margin-left: 650px;
+        margin-top: -630px;
+
+    }
+
+    /*Mamografia*/
+
+    .emamografia__titulo{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .emamografia__contenido{
+        margin-top: 100px;
+        margin-left: 20px;
+        width: 500px;
+        border: 1px black solid;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .emamografia__imagenes{
+        height: 400px;
+        width: 550px;
+        margin-left: 650px;
+        margin-top: -370px;
+    }
+    
+
+    
+
+
 
 
 }
