@@ -97,19 +97,19 @@ ul ul li :hover{background-color: rgb(255, 255, 255);}
 
 .contenido__nosotros{
     grid-area: contnos;
-    background-color: rgb(217, 250, 250);
+    background-color: rgb(216, 216, 186);
     border: 1px solid black;
 }
 
 .publicidad__nosotros{
     grid-area: publinos;
-    background-color: rgb(218, 134, 218);
+    background-color: rgb(216, 216, 186);
 }
 
 .footer__nosotros{
     grid-area: footnos;
     border: 1px solid black;
-    background-color: rgb(150, 129, 104);
+    background-color: rgb(70, 141, 108);
 }
 
 .footer__logosn{ display: none;}
@@ -171,7 +171,7 @@ ul ul li :hover{background-color: rgb(255, 255, 255);}
 
 
 
-    @media screen and (min-width: 500px){
+    @media screen and (min-width: 700px){
         .father{
             grid-template-columns: 3fr, 7fr, 1fr;
             grid-template-rows: 2fr,  5fr, 7fr,3fr;
@@ -255,17 +255,17 @@ ul ul li :hover{background-color: rgb(255, 255, 255);}
 
         .contenido__nosotros{
             grid-area: contnos;
-            background-color: blue;
+            background-color: rgb(216, 216, 186);
             border: 1px solid black;
             flex-wrap: wrap;
         }
         .publicidad__nosotros{
             grid-area: publinos;
-            background-color: yellow;
+            background-color: rgb(216, 216, 186);
             border: 1px solid black;
         }
 
-        .body__nosotros{background-color: aquamarine;}
+        .body__nosotros{background-color: rgb(216, 216, 186);}
 
         .footer__logosn{display: none;}
         .father__nosotros{
@@ -289,6 +289,8 @@ ul ul li :hover{background-color: rgb(255, 255, 255);}
         "footcon     footcon     footcon" ;
     }
 
+    .body__contacto{ background-color: rgb(216, 216, 186);}
+
     .numeros__contacto{
         background-color: rgb(185, 150, 107);
         font-family: Arial, Helvetica, sans-serif;
@@ -301,7 +303,7 @@ ul ul li :hover{background-color: rgb(255, 255, 255);}
     }
 
     .contenido__contacto{
-        background-color: rgb(129, 177, 129);
+        background-color: rgb(70, 141, 108);
     }
 
     .mapa__contacto{
@@ -324,7 +326,7 @@ ul ul li :hover{background-color: rgb(255, 255, 255);}
         "imagenes     imagenes    imagenes       publicidad"
         "contenido    contenido   contenido       publicidad"
         "footer       footer      footer           footer";
-        gap: 10px;
+        gap: 5px;
     }
 
     .logo__titulo{width: 200px;
@@ -344,8 +346,9 @@ ul ul li :hover{background-color: rgb(255, 255, 255);}
         }
 
 
-    .cervical{height: 330px;
-    width: 500px;}
+    .cervical{
+        height: 330px;
+        width: 500px;}
 
     .encefalo{height: 330px;}
 
@@ -418,10 +421,10 @@ ul ul li :hover{background-color: rgb(255, 255, 255);}
     "contnos     contnos     publinos"
     "contnos     contnos     publinos"
     "footnos     footnos     footnos";
-    gap: 10px;
+    gap: 5px;
     }
     .footer__nosotros{
-    background-color: yellowgreen;
+    background-color: rgb(70, 141, 108);
     border: 1px solid black;
     }
 
@@ -458,7 +461,7 @@ ul ul li :hover{background-color: rgb(255, 255, 255);}
         "header      header      header"
         "contencon   contencon   numeros"
         "footcon     footcon     footcon" ;
-        gap: 10px;
+        gap: 5px;
     }
 
     .numeros__contacto{
@@ -473,13 +476,14 @@ ul ul li :hover{background-color: rgb(255, 255, 255);}
         margin-left: 10px;
         height: 400px;
         border: 1px black solid;
-        background-color: rgb(129, 177, 129);
+        background-color: rgb(70, 141, 108);
         
 
     }
 
     .contenido__contacto{
         background-color: rgb(216, 216, 186);
+        border: 1px solid black;
     }
 
     .mapa__contacto{
@@ -554,8 +558,6 @@ ul ul li :hover{background-color: rgb(255, 255, 255);}
         border: 1px solid black;
         font-family: Arial, Helvetica, sans-serif;
     }
-
-    
 
     .edensitometria__imagenes{
         height: 300px;
