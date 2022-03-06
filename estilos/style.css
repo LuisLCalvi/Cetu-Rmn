@@ -1,618 +1,419 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
 
-*{padding: 0;
-margin: 0;}
 /* INDEX*/
+body {
+  background-color: #d8d8ba; }
 
-    body{
-    background-color:rgb(216, 216, 186);
-}
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px black solid;
+  display: grid;
+  grid-area: header;
+  background-color: #468d6c; }
+  header .clarito {
+    background-color: #d8d8ba;
+    border: 1px solid #468d6c; }
+    header .clarito main div div ul li:hover {
+      background-color: red; }
+    header .clarito main div div ul li ul li {
+      background-color: #d8d8ba; }
+      header .clarito main div div ul li ul li:hover {
+        background-color: #d8d8ba; }
 
-.clarito{background-color: rgb(216, 216, 186);
-border: 1px solid rgb(70, 141, 108);}
+.logo__titulo {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  flex-wrap: wrap; }
 
-ul li :hover{background-color: rgb(255, 255, 255);}
+a {
+  text-decoration: none; }
 
-ul ul li{background-color: rgb(216, 216, 186);}
+.imagenes {
+  grid-area: imagenes; }
 
-ul ul li :hover{background-color: rgb(255, 255, 255);}
+footer {
+  margin-bottom: 0;
+  background-color: #468d6c; }
 
-    header{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 25px black solid;
-        display: grid;
-        grid-area: header;
-        background-color: rgb(70, 141, 108);
-    }
+.footer__logos {
+  display: none; }
 
+.contenido {
+  border: 1px black solid;
+  background-color: #468d6c;
+  flex-wrap: wrap; }
 
-    .logo__titulo{
-        display:flex;
-        height: 100px;
-        width: 100px;
-        flex-wrap: wrap;
-    }
+.publicidad {
+  border: 1px black solid; }
 
-    a{
-        text-decoration: none;
-    }
-    .imagenes{
-        grid-area: imagenes;
-    }
-    footer{
-        margin-bottom: 0;
-        background-color: rgb(70, 141, 108);
-    }
+.contenido {
+  grid-area: contenido; }
 
-    .footer__logos{
-        display: none;
-    }
+.formulario {
+  display: grid;
+  height: 230px;
+  width: 200px;
+  font-size: 17px solid black;
+  justify-content: flex-start;
+  border-radius: 10px;
+  text-align: left;
+  flex-wrap: wrap; }
 
-    .contenido {
-        border: 1px black solid;
-        background-color: rgb(70, 141, 108);
-        flex-wrap: wrap;
-    }
-    
-    .publicidad{
-        border: 1px black solid;
-    }
+.publicidad {
+  grid-area: publicidad;
+  background-color: #d8d8ba; }
 
-    .contenido{
-        grid-area: contenido;
-    }
+footer {
+  grid-area: footer; }
 
-    .formulario{display:grid;
-    height: 230px;
-    width: 200px;
-    font-size: 17px solid black;
-    justify-content: flex-start;
-    border-radius: 10px;
-    text-align: left;
-    flex-wrap: wrap;
-    
-    
-    }
-    .publicidad{
-        grid-area: publicidad;
-        background-color: rgb(216, 216, 186);
-    }
-
-    footer{
-        grid-area: footer;
-    }
-
-    .father{
-        display: grid;
-        
-        grid-template-areas:
-        "header"
-        "imagenes"
-        "contenido"
-        "publicidad"
-        "footer";
-        border: 2px solid black;}
+.father {
+  display: grid;
+  grid-template-areas: "header" "imagenes" "contenido" "publicidad" "footer";
+  border: 2px solid black; }
 
 /*NOSOTROS*/
+.contenido__nosotros {
+  grid-area: contnos;
+  background-color: #d8d8ba;
+  border: 1px solid black; }
 
-.contenido__nosotros{
-    grid-area: contnos;
-    background-color: rgb(216, 216, 186);
-    border: 1px solid black;
-}
+.publicidad__nosotros {
+  grid-area: publinos;
+  background-color: #d8d8ba; }
 
-.publicidad__nosotros{
-    grid-area: publinos;
-    background-color: rgb(216, 216, 186);
-}
+.footer__nosotros {
+  grid-area: footnos;
+  border: 1px solid black;
+  background-color: #468d6c; }
 
-.footer__nosotros{
-    grid-area: footnos;
-    border: 1px solid black;
-    background-color: rgb(70, 141, 108);
-}
+.footer__logosn {
+  display: none; }
 
-.footer__logosn{ display: none;}
-
-
-.father__nosotros{
-    display: grid;
-    grid-template-areas:
-    "header"
-    "contnos"
-    "publinos"
-    "footnos"
-    ;
-}
+.father__nosotros {
+  display: grid;
+  grid-template-areas: "header" "contnos" "publinos" "footnos"; }
 
 /*CONTACTO*/
+.father__contacto {
+  display: grid;
+  grid-template-areas: "header" "contencon" "numeros" "footcon"; }
 
-.father__contacto{
-    display: grid;
-    grid-template-areas:
-    "header"
-    "contencon"
-    "numeros"
-    "footcon";
-}
+.formulario__contacto {
+  display: grid;
+  height: 230px;
+  width: 200px;
+  font-size: 17px solid black;
+  justify-content: flex-start;
+  border-radius: 10px;
+  text-align: left;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-top: 15px; }
 
-.formulario__contacto{
-    display: grid;
-    height: 230px;
-    width: 200px;
-    font-size: 17px solid black;
-    justify-content: flex-start;
-    border-radius: 10px;
-    text-align: left;
+.contenido__contacto {
+  grid-area: contencon; }
+
+.mapa__contacto {
+  margin-top: 14px; }
+
+.numeros__contacto {
+  grid-area: numeros;
+  border: 1px solid black; }
+
+.footer__contacto {
+  grid-area: footcon; }
+
+.footer__logosc {
+  display: none; }
+
+@media screen and (min-width: 700px) {
+  .father {
+    grid-template-columns: 3fr, 7fr, 1fr;
+    grid-template-rows: 2fr,  5fr, 7fr,3fr;
+    grid-template-areas: "header       header      header" "imagenes     imagenes    publicidad" "contenido    contenido   publicidad" "footer       footer      footer"; }
+  .logo__titulo {
+    display: flex;
+    height: 150px;
+    width: 150px;
     flex-wrap: wrap;
+    margin-top: 0; }
+  header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+  .header__titulo {
+    padding: 45px;
+    margin-top: -140px;
+    margin-left: 60px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center; }
+  .contenido {
+    display: flex;
+    background-color: #d8d8ba;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  .contenido__parrafo1 {
+    width: 400px;
+    height: 500px;
+    margin-left: 45%;
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    background-color: #468d6c;
+    flex-wrap: wrap; }
+  .formulario {
+    display: grid;
+    height: 330px;
+    width: 180px;
+    margin-left: -950px;
+    margin-top: 200px;
+    border-radius: 1px solid black;
+    border: 1px #468d6c solid;
+    flex-wrap: wrap; }
+  .mapa {
+    display: flex;
+    margin-top: 30%;
+    margin-right: -26%;
+    flex-wrap: wrap; }
+  .publicidad {
+    display: flex;
+    margin-right: 0;
+    flex-wrap: wrap; }
+  footer {
+    background-color: #468d6c; }
+  /*NOSOTROS*/
+  .contenido__nosotros {
+    grid-area: contnos;
+    background-color: #d8d8ba;
     border: 1px solid black;
-    margin-left: 10px;
-    margin-top: 15px;
-}
+    flex-wrap: wrap; }
+  .publicidad__nosotros {
+    grid-area: publinos;
+    background-color: #d8d8ba;
+    border: 1px solid black; }
+  .body__nosotros {
+    background-color: #d8d8ba; }
+  .footer__logosn {
+    display: none; }
+  .father__nosotros {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: "header      header      header" "contnos     contnos     publinos" "footnos     footnos     footnos"; }
+  /*CONTACTO*/
+  .father__contacto {
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: "header      header      header" "contencon   contencon   numeros" "footcon     footcon     footcon"; }
+  .body__contacto {
+    background-color: #d8d8ba; }
+  .numeros__contacto {
+    background-color: #b9966b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 105px solid black; }
+  .formulario__contacto {
+    margin-top: 100px;
+    margin-left: 25px; }
+  .contenido__contacto {
+    background-color: #468d6c; }
+  .mapa__contacto {
+    margin-left: 315px;
+    margin-top: -106px; }
+  .mapa__tamaño {
+    width: 450px;
+    height: 320px; } }
 
-.contenido__contacto{grid-area: contencon;}
-
-
-.mapa__contacto{
-    margin-top: 14px;
-}
-
-.numeros__contacto{
-    grid-area: numeros;
-    border: 1px solid black;
-}
-
-.footer__contacto{
-    grid-area: footcon;
-}
-.footer__logosc{ display: none;}
-
-
-
-
-
-    @media screen and (min-width: 700px){
-        .father{
-            grid-template-columns: 3fr, 7fr, 1fr;
-            grid-template-rows: 2fr,  5fr, 7fr,3fr;
-            grid-template-areas:
-            "header       header      header"
-            "imagenes     imagenes    publicidad"
-            "contenido    contenido   publicidad"
-            "footer       footer      footer";
-            
-        }
-        .logo__titulo{
-            display: flex;
-            height: 150px;
-            width: 150px;
-            flex-wrap: wrap;
-            margin-top: 0;
-            
-
-        }
-        header{display: flex;
-            justify-content: center;
-            flex-direction: column;
-        }
-        .header__titulo{padding: 45px;
-            margin-top: -140px;
-            margin-left: 60px; 
-            font-style:normal;
-            font-weight:bold;
-            font-size: 30px;
-            font-family: 'Open Sans', sans-serif;
-            text-align: center;}
-
-            
-
-        .contenido{
-            display: flex;
-            background-color: rgb(216, 216, 186);
-            flex-direction: row;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            
-        }
-
-        .contenido__parrafo1{
-            width: 400px;
-            height: 500px;            
-            margin-left: 45%;
-            margin-top: 50px;
-            font-family: 'Open Sans', sans-serif;
-            border-radius: 10px;
-            background-color: rgb(70, 141, 108);
-            flex-wrap: wrap;
-        }
-
-        .formulario{display: grid;                
-        height: 330px;
-        width: 180px;
-        margin-left: -950px;
-        margin-top: 200px;
-        border-radius: 1px solid black;
-        border: 1px rgb(70, 141, 108) solid;
-        flex-wrap: wrap;
-    }
-
-        .mapa{display: flex;
-        margin-top: 30%;
-        margin-right: -26%;
-        flex-wrap: wrap;            
-        }
-
-        .publicidad{display: flex;
-            margin-right: 0;
-            flex-wrap: wrap;
-        }
-        footer{
-            background-color: rgb(70, 141, 108);
-        }
-        
-        /*NOSOTROS*/
-
-
-        .contenido__nosotros{
-            grid-area: contnos;
-            background-color: rgb(216, 216, 186);
-            border: 1px solid black;
-            flex-wrap: wrap;
-        }
-        .publicidad__nosotros{
-            grid-area: publinos;
-            background-color: rgb(216, 216, 186);
-            border: 1px solid black;
-        }
-
-        .body__nosotros{background-color: rgb(216, 216, 186);}
-
-        .footer__logosn{display: none;}
-        .father__nosotros{
-            display: grid;
-            grid-template-columns: 1fr 3fr 1fr;
-            grid-template-rows: 1fr 3fr 1fr;
-            grid-template-areas: 
-            "header      header      header"
-            "contnos     contnos     publinos"
-            "footnos     footnos     footnos";
-        }
-
-    /*CONTACTO*/
-
-    .father__contacto{
-        grid-template-columns: 1fr 3fr 1fr;
-        grid-template-rows: 1fr 3fr 1fr;
-        grid-template-areas:
-        "header      header      header"
-        "contencon   contencon   numeros"
-        "footcon     footcon     footcon" ;
-    }
-
-    .body__contacto{ background-color: rgb(216, 216, 186);}
-
-    .numeros__contacto{
-        background-color: rgb(185, 150, 107);
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 105px solid black;
-    }
-
-    .formulario__contacto{
-        margin-top: 100px;
-        margin-left: 25px;
-    }
-
-    .contenido__contacto{
-        background-color: rgb(70, 141, 108);
-    }
-
-    .mapa__contacto{
-        margin-left: 315px;
-        margin-top: -106px
-        ;
-    }
-
-    .mapa__tamaño{
-        width: 450px;
-        height: 320px;
-    }
-
-    @media only screen and (min-width: 1024px){  
-        .father{
-        grid-template-columns: 1fr, 3fr, 3fr, 1fr;
-        grid-template-rows: 2fr, 3fr, 3fr,  2fr;
-        grid-template-areas:
-        "header       header      header          header"
-        "imagenes     imagenes    imagenes       publicidad"
-        "contenido    contenido   contenido       publicidad"
-        "footer       footer      footer           footer";
-        gap: 5px;
-    }
-
-    .logo__titulo{width: 200px;
-    height: 170px;}
-
-    nav{
-        margin-top: 5px;
-    }
-
-    .imagenes{
-        display: flex;
-        height: 330px;
-        width: 430px;
-        padding: 7px;
-        margin-left: 350px;
-        margin
-        }
-
-
-    .cervical{
-        height: 330px;
-        width: 500px;}
-
-    .encefalo{height: 330px;}
-
-
-    .contenido{
-        
-        border: 1px solid black;
-        
-
-    }
-
-    .contenido__parrafo1{
-        margin-bottom: 50px;
-        height: 530px;
-    }
-
-    .formulario{
-        height: 410px;
-        width: 260px;
-        padding: 10px;
-        margin-left: -1000px;
-    }
-
-
-
-    .publicidad{
-        
-        border: 1px solid black;
-
-    }
-
-    .footer{
-        
-        border: 1px solid black;
-    }
-
-    .footer__direccion{
-        margin-top: 30px;
-    }
-
-    .footer__logos{
-        display: flex;
-        flex-direction: column;
-        margin-left: 72%;
-        width: 34px;
-        height: 34px;
-        padding: 5px;
-        margin-bottom: 40px;
-        margin-top: -76px;}
-
-    .footer__telefono{
-        margin-left: 75%;
-        margin-top: -66px;
-    }
-    .footer__whatsapp{
-        margin-left: 75%;
-    }
-    .footer__email{
-        margin-left: 75%;
-    }
-
-    /*NOSOTROS*/
-
-    .father__nosotros{
+@media only screen and (min-width: 700px) and (min-width: 1024px) {
+  .father {
+    grid-template-columns: 1fr, 3fr, 3fr, 1fr;
+    grid-template-rows: 2fr, 3fr, 3fr,  2fr;
+    grid-template-areas: "header       header      header          header" "imagenes     imagenes    imagenes       publicidad" "contenido    contenido   contenido       publicidad" "footer       footer      footer           footer";
+    gap: 5px; }
+  .logo__titulo {
+    width: 200px;
+    height: 170px; }
+  nav {
+    margin-top: 5px; }
+  .imagenes {
+    display: flex;
+    height: 330px;
+    width: 430px;
+    padding: 7px;
+    margin-left: 350px;
+    margin-top: -5px; }
+  .encefalo {
+    height: 330px; }
+  .cervical {
+    height: 330px;
+    width: 450px; }
+  .contenido {
+    border: 1px solid black; }
+  .contenido__parrafo1 {
+    margin-bottom: 50px;
+    height: 530px; }
+  .formulario {
+    height: 410px;
+    width: 260px;
+    padding: 10px;
+    margin-left: -1000px; }
+  .publicidad {
+    border: 1px solid black; }
+  .footer {
+    border: 1px solid black; }
+  .footer__direccion {
+    margin-top: 30px; }
+  .footer__logos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 72%;
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+    margin-bottom: 40px;
+    margin-top: -76px; }
+  .footer__telefono {
+    margin-left: 75%;
+    margin-top: -66px; }
+  .footer__whatsapp {
+    margin-left: 75%; }
+  .footer__email {
+    margin-left: 75%; }
+  /*NOSOTROS*/
+  .father__nosotros {
     display: grid;
     grid-template-columns: 1fr 3fr  1fr;
     grid-template-rows: 1fr 3fr  3fr  1fr;
-    grid-template-areas: 
-    "header      header      header"
-    "contnos     contnos     publinos"
-    "contnos     contnos     publinos"
-    "footnos     footnos     footnos";
-    gap: 5px;
-    }
-    .footer__nosotros{
-    background-color: rgb(70, 141, 108);
+    grid-template-areas: "header      header      header" "contnos     contnos     publinos" "contnos     contnos     publinos" "footnos     footnos     footnos";
+    gap: 5px; }
+  .footer__nosotros {
+    background-color: #468d6c;
+    border: 1px solid black; }
+  .footer__direccionn {
+    margin-top: 30px; }
+  .footer__logosn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 72%;
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+    margin-bottom: 40px;
+    margin-top: -76px; }
+  .footer__telefonon {
+    margin-left: 75%;
+    margin-top: -66px; }
+  .footer__whatsappn {
+    margin-left: 75%; }
+  .footer__emailn {
+    margin-left: 75%; }
+  /*CONTACTO*/
+  .father__contacto {
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: "header      header      header" "contencon   contencon   numeros" "footcon     footcon     footcon";
+    gap: 5px; }
+  .numeros__contacto {
+    background-color: #b9966b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 105px solid black; }
+  .formulario__contacto {
+    margin-top: 100px;
+    margin-left: 10px;
+    height: 400px;
+    border: 1px black solid;
+    background-color: #468d6c; }
+  .contenido__contacto {
+    background-color: #d8d8ba;
+    border: 1px solid black; }
+  .mapa__contacto {
+    margin-left: 315px; }
+  .mapa__tamaño {
+    width: 750px;
+    height: 320px; }
+  .footer__logosc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 72%;
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+    margin-bottom: 40px;
+    margin-top: -76px; }
+  .footer__telefonoc {
+    margin-left: 75%;
+    margin-top: -66px; }
+  .footer__whatsappc {
+    margin-left: 75%; }
+  .footer__emailc {
+    margin-left: 75%; }
+  /*Equipos*/
+  /*Resonancia*/
+  .eresonancia__titulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px solid black; }
+  .eresonancia__contenido {
+    margin-left: 20px;
+    height: 800px;
+    width: 700px;
     border: 1px solid black;
-    }
-
-    .footer__direccionn{
-    margin-top: 30px;
-    }
-
-    .footer__logosn{
-        display: flex;
-        flex-direction: column;
-        margin-left: 72%;
-        width: 34px;
-        height: 34px;
-        padding: 5px;
-        margin-bottom: 40px;
-        margin-top: -76px;}
-
-    .footer__telefonon{
-        margin-left: 75%;
-        margin-top: -66px;
-    }
-    .footer__whatsappn{
-    margin-left: 75%;
-    }
-    .footer__emailn{
-    margin-left: 75%;
-    }
-
-    /*CONTACTO*/
-    .father__contacto{
-        grid-template-columns: 1fr 3fr 1fr;
-        grid-template-rows: 1fr 3fr 1fr;
-        grid-template-areas:
-        "header      header      header"
-        "contencon   contencon   numeros"
-        "footcon     footcon     footcon" ;
-        gap: 5px;
-    }
-
-    .numeros__contacto{
-        background-color: rgb(185, 150, 107);
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 105px solid black;
-    }
-
-    .formulario__contacto{
-        
-        margin-top: 100px;
-        margin-left: 10px;
-        height: 400px;
-        border: 1px black solid;
-        background-color: rgb(70, 141, 108);
-        
-
-    }
-
-    .contenido__contacto{
-        background-color: rgb(216, 216, 186);
-        border: 1px solid black;
-    }
-
-    .mapa__contacto{
-        margin-left: 315px;
-        ;
-    }
-
-    .mapa__tamaño{
-        width: 750px;
-        height: 320px;
-    }
-    .footer__logosc{
-        display: flex;
-        flex-direction: column;
-        margin-left: 72%;
-        width: 34px;
-        height: 34px;
-        padding: 5px;
-        margin-bottom: 40px;
-        margin-top: -76px;}
-    
-        .footer__telefonoc{
-        margin-left: 75%;
-        margin-top: -66px;;
-        }
-        .footer__whatsappc{
-        margin-left: 75%;
-        }
-        .footer__emailc{
-        margin-left: 75%;
-        }
-
-    /*Equipos*/
-
-    /*Resonancia*/
-    .eresonancia__titulo{
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 90px solid black;
-    }   
-    
-    
-    
-    
-    .eresonancia__contenido{
-        margin-left: 20px;
-        height: 800px;
-        width: 700px;
-        border: 1px solid black;
-        font-family: Arial, Helvetica, sans-serif;
-
-    }
-    
-
-    .resoimagenes{
-        height: 400px;
-        width: 450px;
-        margin-left: 810px;
-        margin-top: -780px;
-    }
-
-    /*Densitometria*/
-
-    .edensitometria__titulo{
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .edensitometria__contenido{
-        margin-left: 50px;
-        margin-top: 100px;
-        width: 400px;
-        border: 1px solid black;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .edensitometria__imagenes{
-        height: 300px;
-        width: 650px;
-        margin-left: 650px;
-        margin-top: -360px;
-        
-    }
-
-    /*Tomografia*/
-    .etomografia__titulo{
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .etomografia__contenido{
-        margin-left: 20px;
-        width: 600px;
-        border: 1px black solid;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .etomografia__imagenes{
-        height: 300px;
-        width: 600px;
-        margin-left: 650px;
-        margin-top: -630px;
-
-    }
-
-    /*Mamografia*/
-
-    .emamografia__titulo{
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .emamografia__contenido{
-        margin-top: 100px;
-        margin-left: 20px;
-        width: 500px;
-        border: 1px black solid;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .emamografia__imagenes{
-        height: 400px;
-        width: 550px;
-        margin-left: 650px;
-        margin-top: -370px;
-    }
-    
-
-    
-
-
-
-
-}
+    font-family: Arial, Helvetica, sans-serif; }
+  .resoimagenes {
+    height: 400px;
+    width: 450px;
+    margin-left: 810px;
+    margin-top: -780px; }
+  /*Densitometria*/
+  .edensitometria__titulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; }
+  .edensitometria__contenido {
+    margin-left: 50px;
+    margin-top: 100px;
+    width: 400px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif; }
+  .edensitometria__imagenes {
+    height: 300px;
+    width: 650px;
+    margin-left: 650px;
+    margin-top: -360px; }
+  /*Tomografia*/
+  .etomografia__titulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; }
+  .etomografia__contenido {
+    margin-left: 20px;
+    width: 600px;
+    border: 1px black solid;
+    font-family: Arial, Helvetica, sans-serif; }
+  .etomografia__imagenes {
+    height: 300px;
+    width: 600px;
+    margin-left: 650px;
+    margin-top: -630px; }
+  /*Mamografia*/
+  .emamografia__titulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; }
+  .emamografia__contenido {
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 500px;
+    border: 1px black solid;
+    font-family: Arial, Helvetica, sans-serif; }
+  .emamografia__imagenes {
+    height: 400px;
+    width: 550px;
+    margin-left: 650px;
+    margin-top: -370px; } }

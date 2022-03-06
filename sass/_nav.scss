@@ -1,0 +1,29 @@
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px black solid;
+    display: grid;
+    grid-area: header;
+    background-color: rgb(70, 141, 108);
+    .clarito{background-color: rgb(216, 216, 186);
+        border: 1px solid rgb(70, 141, 108);
+    main{
+        div{
+            div{
+                ul{
+                    li{
+                        &:hover{background-color: $fondoColor}
+                        ul{
+                            li{
+                                background-color: rgb(216, 216, 186);
+                                &:hover{ background-color: rgb(216, 216, 186);}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+ 
+}
