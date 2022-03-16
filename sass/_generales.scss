@@ -3,6 +3,13 @@
     /* INDEX*/
     
         body{
-        background-color:rgb(216, 216, 186);
+        background-color:rgb(255, 255, 255);
     }
-    
+
+    /*Mapa*/
+
+@each $boton, $color in $botones {
+    .boton__#{$boton}{
+        background-color: $color;
+    }
+}

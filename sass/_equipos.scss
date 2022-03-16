@@ -1,0 +1,155 @@
+    /*Equipos*/
+    
+        /*Resonancia*/
+        .eresonancia__titulo{
+            text-align: center;
+            font-family: $letraTitulos;
+            font-size: 90px solid black;
+        }  
+        
+        .eresonancia__parrafocontraindicacion{
+            border: 1px solid black;
+            margin-top: 20px;
+            width: 530px;
+            border-radius: 5px;
+            padding: 6px;
+            background-color: $fondoParrafos;
+            font-family: $letraParrafos;
+            margin-left: 50px;
+        }
+        .eresonancia__imagen{
+            height: 30px;
+        }
+        
+        .eresonancia__contenido{
+            margin-left: 50px;
+            margin-top: 10px;
+            @include size (530px, 495px);
+            border-radius: 5px;
+            border: 1px solid black;
+            font-family: $letraParrafos;
+            background-color: $fondoColor;
+            padding: 6px;
+            background-color: $fondoParrafos;
+            
+    
+        }
+        
+    
+        .resoimagenes{
+            @include size (450px, 400px);
+            margin-left: 810px;
+            margin-top: -640px;
+        }
+    
+        /*Densitometria*/
+    
+        .edensitometria__titulo{
+            text-align: center;
+            font-family: $letraTitulos;
+        }
+        .edensitometria__parrafocontraindicacion{
+            border: 1px solid black;
+            margin-top: 40px;
+            width: 500px;
+            border-radius: 5px;
+            padding: 6px;
+            background-color: $fondoParrafos;
+            font-family: $letraParrafos;
+            margin-left: 50px;
+        }
+        .edensitometria__imagen{
+            height: 30px;
+        }
+        .edensitometria__contenido{
+            margin-left: 50px;
+            margin-top: 100px;
+            width: 500px;
+            border: 1px solid black;
+            border-radius: 5px;
+            font-family: $letraParrafos;
+            padding: 6px;
+            background-color: $fondoParrafos;
+        }
+    
+        .edensitometria__imagenes{
+            @include size (450px, 300px);
+            margin-left: 730px;
+            margin-top: -560px;
+            
+        }
+    
+        /*Tomografia*/
+        .etomografia__titulo{
+            text-align: center;
+            font-family: $letraTitulos;
+        }
+
+        .etomografia__parrafocontraindicacion{
+            border: 1px solid black;
+            margin-top: 40px;
+            width: 500px;
+            border-radius: 5px;
+            padding: 6px;
+            background-color: $fondoParrafos;
+            font-family: $letraParrafos;
+            margin-left: 50px;
+        }
+        .etomografia__imagen{
+            height: 30px;
+        }
+    
+        .etomografia__contenido{
+            margin-left: 50px;
+            width: 500px;
+            margin-top: 30px;
+            border: 1px black solid;
+            border-radius: 5px;
+            font-family: $letraParrafos;
+            padding: 6px;
+            background-color: $fondoParrafos;
+        }
+        .etomografia__imagenes{
+            @include size (500px, 180px);
+            margin-left: 730px;
+            margin-top: -621px;
+    
+        }
+    
+        /*Mamografia*/
+    
+        .emamografia__titulo{
+            text-align: center;
+            font-family: $letraTitulos;
+        }
+
+        .emamografia__parrafocontraindicacion{
+            border: 1px solid black;
+            margin-top: 40px;
+            width: 500px;
+            border-radius: 5px;
+            padding: 6px;
+            background-color: $fondoParrafos;
+            font-family: $letraParrafos;
+            margin-left: 50px;
+        }
+        .emamografia__imagen{
+            height: 30px;
+        }
+    
+        .emamografia__contenido{
+            margin-top: 70px;
+            margin-left: 50px;
+            width: 500px;
+            border: 1px black solid;
+            border-radius: 5px;
+            font-family: $letraParrafos;
+            padding: 6px;
+            background-color: $fondoParrafos;
+        }
+    
+        .emamografia__imagenes{
+            @include size (450px, 300px);
+            margin-left: 670px;
+            margin-top: -550px;
+        }

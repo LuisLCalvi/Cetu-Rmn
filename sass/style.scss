@@ -2,6 +2,11 @@
 @import "fuentes";
 @import "generales";
 @import "nav";
+@import "equipos";
+@import "preparaciones";
+
+
+/**/
 
     .logo__titulo{
         display:flex;
@@ -18,7 +23,7 @@
     }
     footer{
         margin-bottom: 0;
-        background-color: rgb(70, 141, 108);
+        background-color: $fondoColor;
     }
 
     .footer__logos{
@@ -27,7 +32,17 @@
 
     .contenido {
         border: 1px black solid;
-        background-color: rgb(70, 141, 108);
+        background-color: $colorContenido;
+        flex-wrap: wrap;
+    }
+
+    .contenido__parrafo1{
+        
+        font-family: $letraParrafos;
+        border-radius: 10px;
+        padding: 8px;
+        background-color: $fondoColor;
+        color: $colorTexto;
         flex-wrap: wrap;
     }
     
@@ -42,21 +57,25 @@
     .formulario{display:grid;
     height: 230px;
     width: 200px;
-    font-size: 17px solid black;
+    font-size: 17px solid black $letraParrafos;
     justify-content: flex-start;
     border-radius: 10px;
     text-align: left;
     flex-wrap: wrap;
+    background-color: $fondoParrafos;
+    
     
     
     }
     .publicidad{
         grid-area: publicidad;
-        background-color: rgb(216, 216, 186);
+        background-color: $colorContenido;
     }
 
     footer{
         grid-area: footer;
+        color: $colorTexto;
+        font: $letraParrafos;
     }
 
     .father{
@@ -74,19 +93,21 @@
 
 .contenido__nosotros{
     grid-area: contnos;
-    background-color: rgb(216, 216, 186);
+    background-color: $colorContenido;
     border: 1px solid black;
 }
 
 .publicidad__nosotros{
     grid-area: publinos;
-    background-color: rgb(216, 216, 186);
+    background-color: $colorContenido;
 }
 
 .footer__nosotros{
     grid-area: footnos;
     border: 1px solid black;
-    background-color: rgb(70, 141, 108);
+    background-color: $fondoColor;
+    color: $colorTexto;
+    font: $letraParrafos;
 }
 
 .footer__logosn{ display: none;}
@@ -117,7 +138,7 @@
     display: grid;
     height: 230px;
     width: 200px;
-    font-size: 17px solid black;
+    font-size: 17px solid black $letraParrafos;
     justify-content: flex-start;
     border-radius: 10px;
     text-align: left;
@@ -137,10 +158,13 @@
 .numeros__contacto{
     grid-area: numeros;
     border: 1px solid black;
+    color: $colorTexto
 }
 
 .footer__contacto{
     grid-area: footcon;
+    color: $colorTexto;
+    margin-bottom: 0;
 }
 .footer__logosc{ display: none;}
 
@@ -178,14 +202,14 @@
             font-style:normal;
             font-weight:bold;
             font-size: 30px;
-            font-family: 'Open Sans', sans-serif;
+            font-family: $letraTitulos;
             text-align: center;}
 
             
 
         .contenido{
             display: flex;
-            background-color: rgb(216, 216, 186);
+            background-color: $colorTexto;
             flex-direction: row;
             justify-content: space-around;
             flex-wrap: wrap;
@@ -197,9 +221,10 @@
             height: 500px;            
             margin-left: 45%;
             margin-top: 50px;
-            font-family: 'Open Sans', sans-serif;
+            font-family: $letraParrafos;
             border-radius: 10px;
-            background-color: rgb(70, 141, 108);
+            background-color: $fondoColor;
+            color: $colorTexto;
             flex-wrap: wrap;
         }
 
@@ -209,8 +234,9 @@
         margin-left: -950px;
         margin-top: 200px;
         border-radius: 1px solid black;
-        border: 1px rgb(70, 141, 108) solid;
+        border: 1px $fondoColor;
         flex-wrap: wrap;
+        font: $letraParrafos;
     }
 
         .mapa{display: flex;
@@ -224,7 +250,10 @@
             flex-wrap: wrap;
         }
         footer{
-            background-color: rgb(70, 141, 108);
+            background-color: $fondoColor;
+            margin-bottom: 0;
+            margin-top: 40px;
+            font: $letraParrafos;
         }
         
         /*NOSOTROS*/
@@ -232,17 +261,17 @@
 
         .contenido__nosotros{
             grid-area: contnos;
-            background-color: rgb(216, 216, 186);
+            background-color: $colorContenido;
             border: 1px solid black;
             flex-wrap: wrap;
         }
         .publicidad__nosotros{
             grid-area: publinos;
-            background-color: rgb(216, 216, 186);
+            background-color: $colorContenido;
             border: 1px solid black;
         }
 
-        .body__nosotros{background-color: rgb(216, 216, 186);}
+        .body__nosotros{background-color: $colorContenido;}
 
         .footer__logosn{display: none;}
         .father__nosotros{
@@ -266,12 +295,12 @@
         "footcon     footcon     footcon" ;
     }
 
-    .body__contacto{ background-color: rgb(216, 216, 186);}
+    .body__contacto{ background-color: $colorContenido;}
 
     .numeros__contacto{
-        background-color: rgb(185, 150, 107);
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 105px solid black;
+        background-color: $fondoColor;
+        font-family: $letraParrafos;
+        font-size: 105px solid $colorTexto;
     }
 
     .formulario__contacto{
@@ -280,7 +309,7 @@
     }
 
     .contenido__contacto{
-        background-color: rgb(70, 141, 108);
+        background-color: $colorContenido;
     }
 
     .mapa__contacto{
@@ -342,13 +371,14 @@
         .contenido__parrafo1{
             margin-bottom: 50px;
             height: 530px;
+            font: $letraParrafos;
         }
     
         .formulario{
             height: 410px;
             width: 260px;
             padding: 10px;
-            margin-left: -1000px;
+            margin-left: -1030px;
         }
     
     
@@ -362,6 +392,7 @@
         .footer{
             
             border: 1px solid black;
+            font: $letraParrafos;
         }
     
         .footer__direccion{
@@ -394,7 +425,7 @@
         .father__nosotros{
         display: grid;
         grid-template-columns: 1fr 3fr  1fr;
-        grid-template-rows: 1fr 3fr  3fr  1fr;
+        grid-template-rows: 1fr 3fr  1fr  1fr;
         grid-template-areas: 
         "header      header      header"
         "contnos     contnos     publinos"
@@ -402,9 +433,63 @@
         "footnos     footnos     footnos";
         gap: 5px;
         }
+
+        .titulo__nosotros{
+            font-size: 40px $letraTitulos black solid;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .parrafo__nosotros1{            
+            width: 650px;
+            font: $letraParrafos;
+            border: 1px black solid;            
+            background-color: $fondoParrafos;
+            text-align: justify;
+            margin-left: 180px;
+            margin-top: 55px;
+            padding: 7px;
+            
+        }
+
+        .titulo__nosotros2{
+            font-size: 28px $letraParrafos black solid;
+            margin-left: 35px;
+            margin-top: 30px;
+        }
+
+        .parrafo__nosotros2{
+            width: 350px;
+            margin-left: 25px;
+            margin-top: 10px;
+            font: $letraParrafos;
+            background-color: $fondoParrafos;
+            border: 1px black solid;
+            text-align: justify;
+            padding: 7px;
+        }
+
+        .titulo__nosotros3{
+            font-size: 28px $letraParrafos black solid;
+            margin-left: 535px;
+            margin-top: -200px;
+        }
+
+        .parrafo__nosotros3{
+            width: 350px;
+            margin-left: 535px;
+            margin-top: -46px;
+            font: $letraParrafos;
+            background-color: $fondoParrafos;
+            border: 1px black solid;
+            text-align: justify;
+            padding: 7px;
+        }
+
+
         .footer__nosotros{
-        background-color: rgb(70, 141, 108);
+        background-color: $fondoColor;
         border: 1px solid black;
+        font: $letraParrafos;
         }
     
         .footer__direccionn{
@@ -444,25 +529,28 @@
         }
     
         .numeros__contacto{
-            background-color: rgb(185, 150, 107);
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 105px solid black;
+            background-color: $fondoColor;
+            font-family: $letraParrafos;
+            font-size: 105px solid $colorTexto
         }
     
         .formulario__contacto{
+            margin-top: 10px;
+            display: grid;
+            justify-content: flex-start;            
+            text-align:left;
+            height: 390px;
+            width: 227px;
+            font-family: $letraParrafos;
+            padding: 10px; 
+            background-color: $fondoParrafos;
             
-            margin-top: 100px;
-            margin-left: 10px;
-            height: 400px;
-            border: 1px black solid;
-            background-color: rgb(70, 141, 108);
-            
-    
-        }
+}
     
         .contenido__contacto{
-            background-color: rgb(216, 216, 186);
+            background-color: $colorTexto;
             border: 1px solid black;
+
         }
     
         .mapa__contacto{
@@ -473,6 +561,11 @@
         .mapa__tamaño{
             width: 750px;
             height: 320px;
+        }
+
+        .footer__contacto{
+            margin-bottom: 0;
+            
         }
         .footer__logosc{
             display: flex;
@@ -494,98 +587,51 @@
             .footer__emailc{
             margin-left: 75%;
             }
-    
-        /*Equipos*/
-    
-        /*Resonancia*/
-        .eresonancia__titulo{
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 90px solid black;
-        }   
-        
-        
-        
-        
-        .eresonancia__contenido{
-            margin-left: 20px;
-            height: 800px;
-            width: 700px;
-            border: 1px solid black;
-            font-family: Arial, Helvetica, sans-serif;
-    
-        }
-        
-    
-        .resoimagenes{
-            height: 400px;
-            width: 450px;
-            margin-left: 810px;
-            margin-top: -780px;
-        }
-    
-        /*Densitometria*/
-    
-        .edensitometria__titulo{
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        .edensitometria__contenido{
-            margin-left: 50px;
-            margin-top: 100px;
-            width: 400px;
-            border: 1px solid black;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-    
-        .edensitometria__imagenes{
-            height: 300px;
-            width: 650px;
-            margin-left: 650px;
-            margin-top: -360px;
+            .contacto__cv{
+                border: 1px solid black;
+                border-radius: 5px;
+                margin-left: 400px;
+                margin-top: -580px;
+                font-family: $letraParrafos;
+                background-color: $fondoParrafos;
+                @include size (380px, 180px);
+                display: grid;
+                
+            }
+            .formulario__titulo2{
+                text-align: center;
+            }
             
-        }
+
+            /*Extend*/
+
+            .redsocial{
+                border: 1px solid rgb(0, 0, 0);
+                width: 200px;
+                display: grid;
+            }
+
+
+            .redsocial__ig{
+                @extend .redsocial;
+                background-color: rgb(153, 13, 153);
+                color:wheat;
+                border-radius: 3px;
+                margin-top: 280px
+            }
+
+            .redsocial__fb{
+                @extend .redsocial;
+                background-color: blue;
+                color: white;
+                border-radius: 3px;
+                margin-top: 20px;
+            }
+
+
     
-        /*Tomografia*/
-        .etomografia__titulo{
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-        }
     
-        .etomografia__contenido{
-            margin-left: 20px;
-            width: 600px;
-            border: 1px black solid;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        .etomografia__imagenes{
-            height: 300px;
-            width: 600px;
-            margin-left: 650px;
-            margin-top: -630px;
-    
-        }
-    
-        /*Mamografia*/
-    
-        .emamografia__titulo{
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-    
-        .emamografia__contenido{
-            margin-top: 100px;
-            margin-left: 20px;
-            width: 500px;
-            border: 1px black solid;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-    
-        .emamografia__imagenes{
-            height: 400px;
-            width: 550px;
-            margin-left: 650px;
-            margin-top: -370px;
-        }
+
     }
 }
+

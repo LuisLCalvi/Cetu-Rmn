@@ -1,1 +1,24 @@
-$fondoColor: red;
+$fondoColor: #005171;
+
+$fondoParrafos: #d4d4d4;
+
+$letraParrafos: Arial, Helvetica, sans-serif;
+
+$letraTitulos: 'Open Sans', sans-serif;
+
+$colorContenido: rgb(255,255,255);
+
+$colorTexto: rgb(255, 255,255);
+
+$botones: (
+    agregar: blue,
+    confirmar: rgb(67, 122, 67),
+    limpiar: violet
+);
+
+@mixin size ($width, $height){
+    height: $height;
+    width: $width;
+
+}
+    

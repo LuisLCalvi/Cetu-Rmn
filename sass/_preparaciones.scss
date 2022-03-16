@@ -1,0 +1,113 @@
+/*Densitometria*/
+
+.pdensitometria__titulo{
+    text-align: center;
+    font-family: $letraTitulos;
+}
+
+
+.pdensitometria__contenido{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: $letraParrafos;
+    padding: 6px;
+    background-color: $fondoParrafos;
+}
+
+.pdensitometria__imagenes{
+    @include size (680px, 330px);
+    
+    margin-left: 550px;
+    margin-top: -240px;
+    
+}
+
+/*Mamografia*/
+.pmamografia__titulo{
+    text-align: center;
+    font-family: $letraTitulos;
+}
+
+.pmamografia__contenido{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: $letraParrafos;
+    padding: 6px;
+    background-color: $fondoParrafos;
+}
+
+.pmamografia__imagenes{
+    @include size (450px, 540px);
+    
+    margin-left: 650px;
+    margin-top: -370px;
+    
+}
+
+/*Tomografia*/ 
+.ptomografia__titulo{
+    text-align: center;
+    font-family: $letraTitulos;
+}
+.ptomografia__contenido{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: $letraParrafos;
+    padding: 6px;
+    background-color: $fondoParrafos;
+}
+
+.ptomografia__imagenes{
+    @include size (650px, 300px);
+    
+    margin-left: 650px;
+    margin-top: -560px;
+    
+}
+
+
+/*Resonancia*/
+.presonancia__titulo{
+    text-align: center;
+    font-family: $letraTitulos;
+}
+
+.presonancia__contenido{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: $letraParrafos;
+    padding: 6px;
+    background-color: $fondoParrafos;
+}
+
+.presonancia__contenido2{
+    @include size (500px, 436px);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: $letraParrafos;
+    padding: 6px;
+    background-color: $fondoParrafos;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+}
+
+.presonancia__imagenes{
+    @include size(450px, 300px);
+    
+    margin-left: 650px;
+    margin-top: -660px;
+    
+}

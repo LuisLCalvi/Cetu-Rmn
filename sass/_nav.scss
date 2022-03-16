@@ -1,21 +1,26 @@
 header{
+
+    h1{color: $colorTexto;}
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px black solid;
     display: grid;
     grid-area: header;
-    background-color: rgb(70, 141, 108);
-    .clarito{background-color: rgb(216, 216, 186);
-        border: 1px solid rgb(70, 141, 108);
+    background-color: $fondoColor;
+
+    
+    .clarito{background-color: $fondoParrafos;
+        border: 1px solid $fondoColor;
     main{
         div{
             div{
                 ul{
                     li{
                         &:hover{background-color: $fondoColor}
-                        ul{
+                        ul{ 
                             li{
-                                background-color: rgb(216, 216, 186);
-                                &:hover{ background-color: rgb(216, 216, 186);}
+                                background-color: $fondoColor;
+                                &:hover{ background-color: $fondoParrafos;
+                                }
                             }
                         }
                     }
@@ -25,5 +30,5 @@ header{
     }
 
 }
- 
+
 }
