@@ -271,7 +271,6 @@ header {
   margin-left: 650px;
   margin-top: -660px; }
 
-/**/
 .logo__titulo {
   display: flex;
   height: 100px;
@@ -341,9 +340,71 @@ footer {
   background-color: white;
   border: 1px solid black; }
 
+.titulo__nosotros {
+  text-align: center; }
+
+.parrafo__nosotros1 {
+  width: 650px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px black solid;
+  border-radius: 5px;
+  background-color: #d4d4d4;
+  text-align: justify;
+  padding: 7px; }
+
+.parrafo__nosotros2 {
+  width: 350px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d4d4d4;
+  border: 1px black solid;
+  text-align: justify;
+  padding: 7px;
+  border-radius: 5px; }
+
+.imagen__nosparrafo2 {
+  margin-left: 130px; }
+
+.titulo__nosparrafo2 {
+  margin-left: 130px; }
+
+.parrafo__nosotros3 {
+  height: 200px;
+  width: 350px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d4d4d4;
+  border: 1px black solid;
+  border-radius: 5px;
+  text-align: justify;
+  padding: 7px; }
+
+.imagen__nosparrafo3 {
+  margin-left: 130px; }
+
+.titulo__nosparrafo3 {
+  margin-left: 130px; }
+
+.parrafo__nosotros4 {
+  height: 260px;
+  width: 280px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d4d4d4;
+  border: 1px black solid;
+  border-radius: 5px;
+  text-align: justify;
+  padding: 7px; }
+
+.imagen__nosparrafo4 {
+  margin-left: 100px; }
+
+.titulo__nosparrafo4 {
+  margin-left: 100px; }
+
 .publicidad__nosotros {
   grid-area: publinos;
-  background-color: white; }
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; }
 
 .footer__nosotros {
   grid-area: footnos;
@@ -366,27 +427,21 @@ footer {
 
 .formulario__contacto {
   display: grid;
-  height: 230px;
-  width: 200px;
   font-size: 17px solid black Arial, Helvetica, sans-serif;
   justify-content: flex-start;
   border-radius: 10px;
   text-align: left;
   flex-wrap: wrap;
-  border: 1px solid black;
-  margin-left: 10px;
-  margin-top: 15px; }
+  border: 1px solid black; }
 
 .contenido__contacto {
   grid-area: contencon; }
 
-.mapa__contacto {
-  margin-top: 14px; }
-
 .numeros__contacto {
   grid-area: numeros;
   border: 1px solid black;
-  color: white; }
+  color: black;
+  background-color: #d4d4d4; }
 
 .footer__contacto {
   grid-area: footcon;
@@ -466,25 +521,74 @@ footer {
     background-color: white;
     border: 1px solid black;
     flex-wrap: wrap; }
+  .titulo__nosotros {
+    text-align: center; }
+  .parrafo__nosotros1 {
+    width: 650px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: #d4d4d4;
+    text-align: justify;
+    padding: 7px; }
+  .parrafo__nosotros2 {
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d4d4d4;
+    border: 1px black solid;
+    text-align: justify;
+    padding: 7px;
+    border-radius: 5px; }
+  .imagen__nosparrafo2 {
+    margin-left: 130px; }
+  .titulo__nosparrafo2 {
+    margin-left: 130px; }
+  .parrafo__nosotros3 {
+    height: 200px;
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d4d4d4;
+    border: 1px black solid;
+    border-radius: 5px;
+    text-align: justify;
+    padding: 7px; }
+  .imagen__nosparrafo3 {
+    margin-left: 130px; }
+  .titulo__nosparrafo3 {
+    margin-left: 130px; }
+  .parrafo__nosotros4 {
+    height: 260px;
+    width: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d4d4d4;
+    border: 1px black solid;
+    border-radius: 5px;
+    text-align: justify;
+    padding: 7px; }
+  .imagen__nosparrafo4 {
+    margin-left: 100px; }
+  .titulo__nosparrafo4 {
+    margin-left: 100px; }
   .publicidad__nosotros {
     grid-area: publinos;
     background-color: white;
-    border: 1px solid black; }
-  .body__nosotros {
-    background-color: white; }
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
   .footer__logosn {
     display: none; }
   .father__nosotros {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 1fr 3fr 1fr;
-    grid-template-areas: "header      header      header" "contnos     contnos     publinos" "footnos     footnos     footnos"; }
+    grid-template-areas: "header      header      header" "contnos     contnos     publinos" "footnos     footnos     footnos";
+    background-color: white; }
   /*CONTACTO*/
   .father__contacto {
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 1fr 3fr 1fr;
-    grid-template-areas: "header      header      header" "contencon   contencon   numeros" "footcon     footcon     footcon"; }
-  .body__contacto {
+    grid-template-areas: "header      header      header" "contencon   contencon   numeros" "footcon     footcon     footcon";
     background-color: white; }
   .numeros__contacto {
     background-color: #005171;
@@ -504,9 +608,9 @@ footer {
 
 @media only screen and (min-width: 700px) and (min-width: 1024px) {
   .father {
-    grid-template-columns: 1fr, 3fr, 3fr, 1fr;
+    grid-template-columns: 1fr, 3fr, 1fr;
     grid-template-rows: 2fr, 3fr, 3fr,  2fr;
-    grid-template-areas: "header       header      header          header" "imagenes     imagenes    imagenes       publicidad" "contenido    contenido   contenido       publicidad" "footer       footer      footer           footer";
+    grid-template-areas: "header       header      header" "imagenes     imagenes    publicidad" "contenido    contenido   publicidad" "footer       footer      footer";
     gap: 5px; }
   .logo__titulo {
     width: 200px;
@@ -530,14 +634,26 @@ footer {
   .contenido__parrafo1 {
     margin-bottom: 50px;
     height: 530px;
-    font: Arial, Helvetica, sans-serif; }
+    font-family: Arial, Helvetica, sans-serif; }
   .formulario {
     height: 410px;
     width: 260px;
     padding: 10px;
-    margin-left: -1030px; }
+    margin-left: -890px; }
   .publicidad {
-    border: 1px solid black; }
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; }
+  .hemologo {
+    height: 130px;
+    width: 250px; }
+  .electrologo {
+    height: 130px;
+    width: 250px; }
+  .clinicalogo {
+    height: 130px;
+    width: 250px; }
   .footer {
     border: 1px solid black;
     font: Arial, Helvetica, sans-serif; }
@@ -567,44 +683,67 @@ footer {
     grid-template-areas: "header      header      header" "contnos     contnos     publinos" "contnos     contnos     publinos" "footnos     footnos     footnos";
     gap: 5px; }
   .titulo__nosotros {
-    font-size: 40px "Open Sans", sans-serif black solid;
+    font-size: 90px "Open Sans", sans-serif black solid;
     text-align: center;
     margin-top: 40px; }
   .parrafo__nosotros1 {
     width: 650px;
-    font: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     border: 1px black solid;
+    border-radius: 5px;
     background-color: #d4d4d4;
     text-align: justify;
     margin-left: 180px;
     margin-top: 55px;
     padding: 7px; }
-  .titulo__nosotros2 {
-    font-size: 28px Arial, Helvetica, sans-serif black solid;
-    margin-left: 35px;
-    margin-top: 30px; }
   .parrafo__nosotros2 {
     width: 350px;
     margin-left: 25px;
     margin-top: 10px;
-    font: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #d4d4d4;
     border: 1px black solid;
     text-align: justify;
-    padding: 7px; }
-  .titulo__nosotros3 {
-    font-size: 28px Arial, Helvetica, sans-serif black solid;
-    margin-left: 535px;
-    margin-top: -200px; }
+    padding: 7px;
+    border-radius: 5px; }
+  .imagen__nosparrafo2 {
+    margin-left: 130px; }
+  .titulo__nosparrafo2 {
+    margin-left: 130px; }
   .parrafo__nosotros3 {
+    height: 200px;
     width: 350px;
-    margin-left: 535px;
-    margin-top: -46px;
-    font: Arial, Helvetica, sans-serif;
+    margin-left: 405px;
+    margin-top: -282px;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #d4d4d4;
     border: 1px black solid;
+    border-radius: 5px;
     text-align: justify;
     padding: 7px; }
+  .imagen__nosparrafo3 {
+    margin-left: 130px; }
+  .titulo__nosparrafo3 {
+    margin-left: 130px; }
+  .parrafo__nosotros4 {
+    height: 260px;
+    width: 280px;
+    margin-left: 775px;
+    margin-top: -218px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d4d4d4;
+    border: 1px black solid;
+    border-radius: 5px;
+    text-align: justify;
+    padding: 7px; }
+  .imagen__nosparrafo4 {
+    margin-left: 100px; }
+  .titulo__nosparrafo4 {
+    margin-left: 100px; }
+  .publicidad__nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
   .footer__nosotros {
     background-color: #005171;
     border: 1px solid black;
@@ -636,13 +775,14 @@ footer {
   .numeros__contacto {
     background-color: #005171;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 105px solid white; }
+    font-size: 105px solid white;
+    color: white; }
   .formulario__contacto {
     margin-top: 10px;
     display: grid;
     justify-content: flex-start;
     text-align: left;
-    height: 390px;
+    height: 394px;
     width: 227px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;

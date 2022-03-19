@@ -6,7 +6,6 @@
 @import "preparaciones";
 
 
-/**/
 
     .logo__titulo{
         display:flex;
@@ -96,10 +95,81 @@
     background-color: $colorContenido;
     border: 1px solid black;
 }
+.titulo__nosotros{
+    text-align: center;
+}
+.parrafo__nosotros1{            
+    width: 650px;
+    font-family: $letraParrafos;
+    border: 1px black solid;
+    border-radius: 5px;            
+    background-color: $fondoParrafos;
+    text-align: justify;
+    padding: 7px;
+    
+}
+
+.parrafo__nosotros2{
+    width: 350px;
+    font-family: $letraParrafos;
+    background-color: $fondoParrafos;
+    border: 1px black solid;
+    text-align: justify;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.imagen__nosparrafo2{
+    margin-left: 130px;
+}
+
+.titulo__nosparrafo2{
+    margin-left: 130px;
+}
+
+
+
+.parrafo__nosotros3{
+    @include size (350px, 200px);
+    font-family: $letraParrafos;
+    background-color: $fondoParrafos;
+    border: 1px black solid;
+    border-radius: 5px;
+    text-align: justify;
+    padding: 7px;
+}
+.imagen__nosparrafo3{
+    margin-left: 130px;
+}
+
+.titulo__nosparrafo3{
+    margin-left: 130px;
+}
+
+.parrafo__nosotros4{
+    @include size (280px, 260px);
+
+    font-family: $letraParrafos;
+    background-color: $fondoParrafos;
+    border: 1px black solid;
+    border-radius: 5px;
+    text-align: justify;
+    padding: 7px;
+}
+.imagen__nosparrafo4{
+    margin-left: 100px;
+}
+
+.titulo__nosparrafo4{
+    margin-left: 100px;
+}
 
 .publicidad__nosotros{
     grid-area: publinos;
     background-color: $colorContenido;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .footer__nosotros{
@@ -136,29 +206,23 @@
 
 .formulario__contacto{
     display: grid;
-    height: 230px;
-    width: 200px;
     font-size: 17px solid black $letraParrafos;
     justify-content: flex-start;
     border-radius: 10px;
     text-align: left;
     flex-wrap: wrap;
     border: 1px solid black;
-    margin-left: 10px;
-    margin-top: 15px;
+
 }
 
 .contenido__contacto{grid-area: contencon;}
 
 
-.mapa__contacto{
-    margin-top: 14px;
-}
-
 .numeros__contacto{
     grid-area: numeros;
     border: 1px solid black;
-    color: $colorTexto
+    color: black;
+    background-color: $fondoParrafos
 }
 
 .footer__contacto{
@@ -167,9 +231,6 @@
     margin-bottom: 0;
 }
 .footer__logosc{ display: none;}
-
-
-
 
 
     @media screen and (min-width: 700px){
@@ -265,13 +326,84 @@
             border: 1px solid black;
             flex-wrap: wrap;
         }
+        
+        .titulo__nosotros{
+            text-align: center;
+        }
+        .parrafo__nosotros1{            
+            width: 650px;
+            font-family: $letraParrafos;
+            border: 1px black solid;
+            border-radius: 5px;            
+            background-color: $fondoParrafos;
+            text-align: justify;
+            padding: 7px;
+    
+        }
+
+        .parrafo__nosotros2{
+            width: 350px;
+            font-family: $letraParrafos;
+            background-color: $fondoParrafos;
+            border: 1px black solid;
+            text-align: justify;
+            padding: 7px;
+            border-radius: 5px;
+        }
+
+        .imagen__nosparrafo2{
+            margin-left: 130px;
+        }
+
+        .titulo__nosparrafo2{
+            margin-left: 130px;
+        }
+
+
+
+        .parrafo__nosotros3{
+            @include size (350px, 200px);
+            font-family: $letraParrafos;
+            background-color: $fondoParrafos;
+            border: 1px black solid;
+            border-radius: 5px;
+            text-align: justify;
+            padding: 7px;
+        }
+        .imagen__nosparrafo3{
+            margin-left: 130px;
+        }
+
+        .titulo__nosparrafo3{
+            margin-left: 130px;
+        }
+
+        .parrafo__nosotros4{
+            @include size (280px, 260px);
+
+            font-family: $letraParrafos;
+            background-color: $fondoParrafos;
+            border: 1px black solid;
+            border-radius: 5px;
+            text-align: justify;
+            padding: 7px;
+        }
+        .imagen__nosparrafo4{
+            margin-left: 100px;
+        }
+
+        .titulo__nosparrafo4{
+            margin-left: 100px;
+        }
+        
         .publicidad__nosotros{
             grid-area: publinos;
             background-color: $colorContenido;
             border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
-
-        .body__nosotros{background-color: $colorContenido;}
 
         .footer__logosn{display: none;}
         .father__nosotros{
@@ -282,6 +414,7 @@
             "header      header      header"
             "contnos     contnos     publinos"
             "footnos     footnos     footnos";
+            background-color: $colorContenido;
         }
 
     /*CONTACTO*/
@@ -293,9 +426,9 @@
         "header      header      header"
         "contencon   contencon   numeros"
         "footcon     footcon     footcon" ;
+        background-color: $colorContenido;
     }
 
-    .body__contacto{ background-color: $colorContenido;}
 
     .numeros__contacto{
         background-color: $fondoColor;
@@ -325,13 +458,13 @@
 
     @media only screen and (min-width: 1024px){
         .father{
-            grid-template-columns: 1fr, 3fr, 3fr, 1fr;
+            grid-template-columns: 1fr, 3fr, 1fr;
             grid-template-rows: 2fr, 3fr, 3fr,  2fr;
             grid-template-areas:
-            "header       header      header          header"
-            "imagenes     imagenes    imagenes       publicidad"
-            "contenido    contenido   contenido       publicidad"
-            "footer       footer      footer           footer";
+            "header       header      header"
+            "imagenes     imagenes    publicidad"
+            "contenido    contenido   publicidad"
+            "footer       footer      footer";
             gap: 5px;
         }
     
@@ -359,35 +492,50 @@
             width: 450px;
 
         }
-    
-    
         .contenido{
             
             border: 1px solid black;
             
-    
         }
     
         .contenido__parrafo1{
             margin-bottom: 50px;
             height: 530px;
-            font: $letraParrafos;
+            font-family: $letraParrafos;
         }
     
         .formulario{
             height: 410px;
             width: 260px;
             padding: 10px;
-            margin-left: -1030px;
+            margin-left: -890px;
         }
     
     
     
         .publicidad{
-            
             border: 1px solid black;
-    
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            
         }
+        
+        .hemologo{
+            height: 130px;
+            width: 250px;
+        }
+        .electrologo{
+            height: 130px;
+            width: 250px;
+        }
+
+        .clinicalogo{
+            height: 130px;
+            width: 250px;
+        }
+        
+
     
         .footer{
             
@@ -435,14 +583,15 @@
         }
 
         .titulo__nosotros{
-            font-size: 40px $letraTitulos black solid;
+            font-size: 90px $letraTitulos black solid;
             text-align: center;
             margin-top: 40px;
         }
         .parrafo__nosotros1{            
             width: 650px;
-            font: $letraParrafos;
-            border: 1px black solid;            
+            font-family: $letraParrafos;
+            border: 1px black solid;
+            border-radius: 5px;            
             background-color: $fondoParrafos;
             text-align: justify;
             margin-left: 180px;
@@ -451,39 +600,74 @@
             
         }
 
-        .titulo__nosotros2{
-            font-size: 28px $letraParrafos black solid;
-            margin-left: 35px;
-            margin-top: 30px;
-        }
+        
 
         .parrafo__nosotros2{
             width: 350px;
             margin-left: 25px;
             margin-top: 10px;
-            font: $letraParrafos;
+            font-family: $letraParrafos;
             background-color: $fondoParrafos;
             border: 1px black solid;
             text-align: justify;
             padding: 7px;
+            border-radius: 5px;
         }
 
-        .titulo__nosotros3{
-            font-size: 28px $letraParrafos black solid;
-            margin-left: 535px;
-            margin-top: -200px;
+        .imagen__nosparrafo2{
+            margin-left: 130px;
         }
+
+        .titulo__nosparrafo2{
+            margin-left: 130px;
+        }
+
+
 
         .parrafo__nosotros3{
-            width: 350px;
-            margin-left: 535px;
-            margin-top: -46px;
-            font: $letraParrafos;
+            @include size (350px, 200px);
+            margin-left: 405px;
+            margin-top: -282px;
+            font-family: $letraParrafos;
             background-color: $fondoParrafos;
             border: 1px black solid;
+            border-radius: 5px;
             text-align: justify;
             padding: 7px;
         }
+        .imagen__nosparrafo3{
+            margin-left: 130px;
+        }
+
+        .titulo__nosparrafo3{
+            margin-left: 130px;
+        }
+
+        .parrafo__nosotros4{
+            @include size (280px, 260px);
+            margin-left: 775px;
+            margin-top: -218px;
+            font-family: $letraParrafos;
+            background-color: $fondoParrafos;
+            border: 1px black solid;
+            border-radius: 5px;
+            text-align: justify;
+            padding: 7px;
+        }
+        .imagen__nosparrafo4{
+            margin-left: 100px;
+        }
+
+        .titulo__nosparrafo4{
+            margin-left: 100px;
+        }
+
+        .publicidad__nosotros{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
 
 
         .footer__nosotros{
@@ -527,11 +711,12 @@
             "footcon     footcon     footcon" ;
             gap: 5px;
         }
-    
+
         .numeros__contacto{
             background-color: $fondoColor;
             font-family: $letraParrafos;
-            font-size: 105px solid $colorTexto
+            font-size: 105px solid $colorTexto;
+            color: $colorTexto;
         }
     
         .formulario__contacto{
@@ -539,23 +724,24 @@
             display: grid;
             justify-content: flex-start;            
             text-align:left;
-            height: 390px;
+            height: 394px;
             width: 227px;
             font-family: $letraParrafos;
             padding: 10px; 
             background-color: $fondoParrafos;
-            
-}
+            }
+
     
         .contenido__contacto{
             background-color: $colorTexto;
             border: 1px solid black;
+            
+            
 
         }
     
         .mapa__contacto{
             margin-left: 315px;
-            ;
         }
     
         .mapa__tamaño{
