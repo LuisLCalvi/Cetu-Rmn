@@ -78,18 +78,34 @@ footer {
 
 .formulario {
   display: grid;
-  height: 230px;
+  height: 330px;
   width: 200px;
   font-size: 17px solid black Arial, Helvetica, sans-serif;
   justify-content: flex-start;
   border-radius: 10px;
   text-align: left;
   flex-wrap: wrap;
-  background-color: #d4d4d4; }
+  background-color: #d4d4d4;
+  margin-top: 10px; }
 
 .publicidad {
   grid-area: publicidad;
-  background-color: white; }
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; }
+
+.hemologo {
+  height: 100px;
+  width: 180px; }
+
+.electrologo {
+  height: 100px;
+  width: 180px; }
+
+.clinicalogo {
+  height: 100px;
+  width: 180px; }
 
 footer {
   grid-area: footer;

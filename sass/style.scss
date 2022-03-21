@@ -51,7 +51,7 @@
     }
 
     .formulario{display:grid;
-    height: 230px;
+    height: 330px;
     width: 200px;
     font-size: 17px solid black $letraParrafos;
     justify-content: flex-start;
@@ -59,6 +59,7 @@
     text-align: left;
     flex-wrap: wrap;
     background-color: $fondoParrafos;
+    margin-top: 10px;
     
     
     
@@ -66,6 +67,21 @@
     .publicidad{
         grid-area: publicidad;
         background-color: $colorContenido;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .hemologo{
+        @include size(180px,100px);
+    }
+
+    .electrologo{
+        @include size(180px, 100px);
+    }
+
+    .clinicalogo{
+        @include size(180px, 100px);
     }
 
     footer{
