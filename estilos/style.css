@@ -534,6 +534,15 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
+  .logohemo {
+    height: 150px;
+    width: 250px; }
+  .logoelectrofisiologos {
+    height: 130px;
+    width: 250px; }
+  .logoclinica {
+    height: 100px;
+    width: 250px; }
   .footer__logosn {
     display: none; }
   .father__nosotros {
@@ -703,6 +712,15 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
+  .logohemo {
+    height: 150px;
+    width: 250px; }
+  .logoelectrofisiologos {
+    height: 130px;
+    width: 250px; }
+  .logoclinica {
+    height: 100px;
+    width: 250px; }
   .footer__nosotros {
     background-color: #005171;
     border: 1px solid black;
