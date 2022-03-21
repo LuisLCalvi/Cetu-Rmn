@@ -58,7 +58,8 @@
 .ptomografia__contenido{
     margin-left: 50px;
     margin-top: 10px;
-    width: 500px;
+    @include size (500px,663px);
+    
     border: 1px solid black;
     border-radius: 5px;
     font-family: $letraParrafos;

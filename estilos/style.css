@@ -28,248 +28,14 @@ header {
     color: white; }
   header .clarito {
     background-color: #d4d4d4;
-    border: 1px solid #005171; }
+    border: 1px solid #005171;
+    border-radius: 4px; }
     header .clarito main div div ul li:hover {
       background-color: #005171; }
     header .clarito main div div ul li ul li {
       background-color: #005171; }
       header .clarito main div div ul li ul li:hover {
         background-color: #d4d4d4; }
-
-/*Equipos*/
-/*Resonancia*/
-.eresonancia__titulo {
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-size: 90px solid black; }
-
-.eresonancia__parrafocontraindicacion {
-  border: 1px solid black;
-  margin-top: 20px;
-  width: 530px;
-  border-radius: 5px;
-  padding: 6px;
-  background-color: #d4d4d4;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 50px; }
-
-.eresonancia__imagen {
-  height: 30px; }
-
-.eresonancia__contenido {
-  margin-left: 50px;
-  margin-top: 10px;
-  height: 495px;
-  width: 530px;
-  border-radius: 5px;
-  border: 1px solid black;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #005171;
-  padding: 6px;
-  background-color: #d4d4d4; }
-
-.resoimagenes {
-  height: 400px;
-  width: 450px;
-  margin-left: 810px;
-  margin-top: -640px; }
-
-/*Densitometria*/
-.edensitometria__titulo {
-  text-align: center;
-  font-family: "Open Sans", sans-serif; }
-
-.edensitometria__parrafocontraindicacion {
-  border: 1px solid black;
-  margin-top: 40px;
-  width: 500px;
-  border-radius: 5px;
-  padding: 6px;
-  background-color: #d4d4d4;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 50px; }
-
-.edensitometria__imagen {
-  height: 30px; }
-
-.edensitometria__contenido {
-  margin-left: 50px;
-  margin-top: 100px;
-  width: 500px;
-  border: 1px solid black;
-  border-radius: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 6px;
-  background-color: #d4d4d4; }
-
-.edensitometria__imagenes {
-  height: 300px;
-  width: 450px;
-  margin-left: 730px;
-  margin-top: -560px; }
-
-/*Tomografia*/
-.etomografia__titulo {
-  text-align: center;
-  font-family: "Open Sans", sans-serif; }
-
-.etomografia__parrafocontraindicacion {
-  border: 1px solid black;
-  margin-top: 40px;
-  width: 500px;
-  border-radius: 5px;
-  padding: 6px;
-  background-color: #d4d4d4;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 50px; }
-
-.etomografia__imagen {
-  height: 30px; }
-
-.etomografia__contenido {
-  margin-left: 50px;
-  width: 500px;
-  margin-top: 30px;
-  border: 1px black solid;
-  border-radius: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 6px;
-  background-color: #d4d4d4; }
-
-.etomografia__imagenes {
-  height: 180px;
-  width: 500px;
-  margin-left: 730px;
-  margin-top: -621px; }
-
-/*Mamografia*/
-.emamografia__titulo {
-  text-align: center;
-  font-family: "Open Sans", sans-serif; }
-
-.emamografia__parrafocontraindicacion {
-  border: 1px solid black;
-  margin-top: 40px;
-  width: 500px;
-  border-radius: 5px;
-  padding: 6px;
-  background-color: #d4d4d4;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 50px; }
-
-.emamografia__imagen {
-  height: 30px; }
-
-.emamografia__contenido {
-  margin-top: 70px;
-  margin-left: 50px;
-  width: 500px;
-  border: 1px black solid;
-  border-radius: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 6px;
-  background-color: #d4d4d4; }
-
-.emamografia__imagenes {
-  height: 300px;
-  width: 450px;
-  margin-left: 670px;
-  margin-top: -550px; }
-
-/*Densitometria*/
-.pdensitometria__titulo {
-  text-align: center;
-  font-family: "Open Sans", sans-serif; }
-
-.pdensitometria__contenido {
-  margin-left: 50px;
-  margin-top: 50px;
-  width: 400px;
-  border: 1px solid black;
-  border-radius: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 6px;
-  background-color: #d4d4d4; }
-
-.pdensitometria__imagenes {
-  height: 330px;
-  width: 680px;
-  margin-left: 550px;
-  margin-top: -240px; }
-
-/*Mamografia*/
-.pmamografia__titulo {
-  text-align: center;
-  font-family: "Open Sans", sans-serif; }
-
-.pmamografia__contenido {
-  margin-left: 50px;
-  margin-top: 50px;
-  width: 400px;
-  border: 1px solid black;
-  border-radius: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 6px;
-  background-color: #d4d4d4; }
-
-.pmamografia__imagenes {
-  height: 540px;
-  width: 450px;
-  margin-left: 650px;
-  margin-top: -370px; }
-
-/*Tomografia*/
-.ptomografia__titulo {
-  text-align: center;
-  font-family: "Open Sans", sans-serif; }
-
-.ptomografia__contenido {
-  margin-left: 50px;
-  margin-top: 10px;
-  width: 500px;
-  border: 1px solid black;
-  border-radius: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 6px;
-  background-color: #d4d4d4; }
-
-.ptomografia__imagenes {
-  height: 300px;
-  width: 650px;
-  margin-left: 650px;
-  margin-top: -560px; }
-
-/*Resonancia*/
-.presonancia__titulo {
-  text-align: center;
-  font-family: "Open Sans", sans-serif; }
-
-.presonancia__contenido {
-  margin-left: 50px;
-  margin-top: 10px;
-  width: 500px;
-  border: 1px solid black;
-  border-radius: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 6px;
-  background-color: #d4d4d4; }
-
-.presonancia__contenido2 {
-  height: 436px;
-  width: 500px;
-  border: 1px solid black;
-  border-radius: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 6px;
-  background-color: #d4d4d4;
-  margin-left: 50px;
-  margin-top: 10px; }
-
-.presonancia__imagenes {
-  height: 300px;
-  width: 450px;
-  margin-left: 650px;
-  margin-top: -660px; }
 
 .logo__titulo {
   display: flex;
@@ -292,6 +58,7 @@ footer {
 
 .contenido {
   border: 1px black solid;
+  border-radius: 4px;
   background-color: white;
   flex-wrap: wrap; }
 
@@ -338,7 +105,8 @@ footer {
 .contenido__nosotros {
   grid-area: contnos;
   background-color: white;
-  border: 1px solid black; }
+  border: 1px solid black;
+  border-radius: 4px; }
 
 .titulo__nosotros {
   text-align: center; }
@@ -451,6 +219,157 @@ footer {
 .footer__logosc {
   display: none; }
 
+/*Equipos*/
+/*Resonancia*/
+.eresonancia__titulo {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 90px solid black; }
+
+.eresonancia__parrafocontraindicacion {
+  border: 1px solid black;
+  margin-top: 20px;
+  width: 530px;
+  border-radius: 5px;
+  padding: 6px;
+  background-color: #d4d4d4;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.eresonancia__imagen {
+  height: 30px; }
+
+.eresonancia__contenido {
+  border-radius: 5px;
+  border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #005171;
+  padding: 6px;
+  background-color: #d4d4d4; }
+
+/*Densitometria*/
+.edensitometria__titulo {
+  text-align: center;
+  font-family: "Open Sans", sans-serif; }
+
+.edensitometria__parrafocontraindicacion {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 6px;
+  background-color: #d4d4d4;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.edensitometria__imagen {
+  height: 30px; }
+
+.edensitometria__contenido {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 6px;
+  background-color: #d4d4d4; }
+
+/*Tomografia*/
+.etomografia__titulo {
+  text-align: center;
+  font-family: "Open Sans", sans-serif; }
+
+.etomografia__parrafocontraindicacion {
+  border: 1px solid black;
+  margin-top: 40px;
+  width: 500px;
+  border-radius: 5px;
+  padding: 6px;
+  background-color: #d4d4d4;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.etomografia__imagen {
+  height: 30px; }
+
+.etomografia__contenido {
+  border: 1px black solid;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 6px;
+  background-color: #d4d4d4; }
+
+/*Mamografia*/
+.emamografia__titulo {
+  text-align: center;
+  font-family: "Open Sans", sans-serif; }
+
+.emamografia__parrafocontraindicacion {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 6px;
+  background-color: #d4d4d4;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.emamografia__imagen {
+  height: 30px; }
+
+.emamografia__contenido {
+  border: 1px black solid;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 6px;
+  background-color: #d4d4d4; }
+
+/*PREPARACIONES*/
+/*Densitometria*/
+.pdensitometria__titulo {
+  text-align: center;
+  font-family: "Open Sans", sans-serif; }
+
+.pdensitometria__contenido {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 6px;
+  background-color: #d4d4d4; }
+
+/*Mamografia*/
+.pmamografia__titulo {
+  text-align: center;
+  font-family: "Open Sans", sans-serif; }
+
+.pmamografia__contenido {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 6px;
+  background-color: #d4d4d4; }
+
+/*Tomografia*/
+.ptomografia__titulo {
+  text-align: center;
+  font-family: "Open Sans", sans-serif; }
+
+.ptomografia__contenido {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 6px;
+  background-color: #d4d4d4; }
+
+/*Resonancia*/
+.presonancia__titulo {
+  text-align: center;
+  font-family: "Open Sans", sans-serif; }
+
+.presonancia__contenido {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 6px;
+  background-color: #d4d4d4; }
+
+.presonancia__contenido2 {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 6px;
+  background-color: #d4d4d4; }
+
 @media screen and (min-width: 700px) {
   .father {
     grid-template-columns: 3fr, 7fr, 1fr;
@@ -493,23 +412,33 @@ footer {
     flex-wrap: wrap; }
   .formulario {
     display: grid;
-    height: 330px;
-    width: 180px;
-    margin-left: -950px;
-    margin-top: 200px;
+    height: 350px;
+    width: 218px;
+    margin-left: -590px;
+    margin-top: 500px;
     border-radius: 1px solid black;
     border: 1px #005171;
     flex-wrap: wrap;
-    font: Arial, Helvetica, sans-serif; }
+    font-family: Arial, Helvetica, sans-serif; }
   .mapa {
     display: flex;
-    margin-top: 30%;
-    margin-right: -26%;
+    margin-top: 570px;
+    margin-right: -30%;
+    margin-left: -250px;
     flex-wrap: wrap; }
   .publicidad {
     display: flex;
     margin-right: 0;
     flex-wrap: wrap; }
+  .hemologo {
+    height: 150px;
+    width: 250px; }
+  .electrologo {
+    height: 130px;
+    width: 250px; }
+  .clinicalogo {
+    height: 100px;
+    width: 250px; }
   footer {
     background-color: #005171;
     margin-bottom: 0;
@@ -573,6 +502,7 @@ footer {
     grid-area: publinos;
     background-color: white;
     border: 1px solid black;
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
@@ -593,14 +523,22 @@ footer {
   .numeros__contacto {
     background-color: #005171;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 105px solid white; }
+    font-size: 105px solid white;
+    color: white; }
   .formulario__contacto {
-    margin-top: 100px;
-    margin-left: 25px; }
+    display: grid;
+    margin-top: 40px;
+    height: 378px;
+    width: 202px;
+    border: 1px;
+    border-radius: 1px solid black;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d4d4d4; }
   .contenido__contacto {
     background-color: white; }
   .mapa__contacto {
-    margin-left: 315px;
+    margin-left: 215px;
     margin-top: -106px; }
   .mapa__tamaño {
     width: 450px;
@@ -609,7 +547,7 @@ footer {
 @media only screen and (min-width: 700px) and (min-width: 1024px) {
   .father {
     grid-template-columns: 1fr, 3fr, 1fr;
-    grid-template-rows: 2fr, 3fr, 3fr,  2fr;
+    grid-template-rows: 1fr, 1fr, 1fr,  1fr;
     grid-template-areas: "header       header      header" "imagenes     imagenes    publicidad" "contenido    contenido   publicidad" "footer       footer      footer";
     gap: 5px; }
   .logo__titulo {
@@ -618,41 +556,34 @@ footer {
   nav {
     margin-top: 5px; }
   .imagenes {
-    display: flex;
-    height: 330px;
-    width: 430px;
-    padding: 7px;
-    margin-left: 350px;
-    margin-top: -5px; }
-  .encefalo {
-    height: 330px; }
-  .cervical {
-    height: 330px;
-    width: 450px; }
+    height: 400px; }
   .contenido {
     border: 1px solid black; }
   .contenido__parrafo1 {
     margin-bottom: 50px;
-    height: 530px;
+    height: 510px;
     font-family: Arial, Helvetica, sans-serif; }
   .formulario {
     height: 410px;
     width: 260px;
     padding: 10px;
-    margin-left: -890px; }
+    margin-left: -948px; }
+  .mapa {
+    margin-left: 20px; }
   .publicidad {
     border: 1px solid black;
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly; }
   .hemologo {
-    height: 130px;
+    height: 150px;
     width: 250px; }
   .electrologo {
     height: 130px;
     width: 250px; }
   .clinicalogo {
-    height: 130px;
+    height: 100px;
     width: 250px; }
   .footer {
     border: 1px solid black;
@@ -825,6 +756,209 @@ footer {
     display: grid; }
   .formulario__titulo2 {
     text-align: center; }
+  /*Equipos*/
+  /*Resonancia*/
+  .eresonancia__titulo {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 90px solid black; }
+  .eresonancia__parrafocontraindicacion {
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 530px;
+    border-radius: 5px;
+    padding: 6px;
+    background-color: #d4d4d4;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px; }
+  .eresonancia__imagen {
+    height: 30px; }
+  .eresonancia__contenido {
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 495px;
+    width: 530px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #005171;
+    padding: 6px;
+    background-color: #d4d4d4; }
+  .resoimagenes {
+    height: 400px;
+    width: 450px;
+    margin-left: 810px;
+    margin-top: -640px; }
+  /*Densitometria*/
+  .edensitometria__titulo {
+    text-align: center;
+    font-family: "Open Sans", sans-serif; }
+  .edensitometria__parrafocontraindicacion {
+    border: 1px solid black;
+    margin-top: 40px;
+    width: 500px;
+    border-radius: 5px;
+    padding: 6px;
+    background-color: #d4d4d4;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px; }
+  .edensitometria__imagen {
+    height: 30px; }
+  .edensitometria__contenido {
+    margin-left: 50px;
+    margin-top: 100px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+    background-color: #d4d4d4; }
+  .edensitometria__imagenes {
+    height: 300px;
+    width: 450px;
+    margin-left: 730px;
+    margin-top: -560px; }
+  /*Tomografia*/
+  .etomografia__titulo {
+    text-align: center;
+    font-family: "Open Sans", sans-serif; }
+  .etomografia__parrafocontraindicacion {
+    border: 1px solid black;
+    margin-top: 40px;
+    width: 500px;
+    border-radius: 5px;
+    padding: 6px;
+    background-color: #d4d4d4;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px; }
+  .etomografia__imagen {
+    height: 30px; }
+  .etomografia__contenido {
+    margin-left: 50px;
+    width: 500px;
+    margin-top: 30px;
+    border: 1px black solid;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+    background-color: #d4d4d4; }
+  .etomografia__imagenes {
+    height: 180px;
+    width: 500px;
+    margin-left: 730px;
+    margin-top: -621px; }
+  /*Mamografia*/
+  .emamografia__titulo {
+    text-align: center;
+    font-family: "Open Sans", sans-serif; }
+  .emamografia__parrafocontraindicacion {
+    border: 1px solid black;
+    margin-top: 40px;
+    width: 500px;
+    border-radius: 5px;
+    padding: 6px;
+    background-color: #d4d4d4;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px; }
+  .emamografia__imagen {
+    height: 30px; }
+  .emamografia__contenido {
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 500px;
+    border: 1px black solid;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+    background-color: #d4d4d4; }
+  .emamografia__imagenes {
+    height: 300px;
+    width: 450px;
+    margin-left: 670px;
+    margin-top: -550px; }
+  /*Densitometria*/
+  .pdensitometria__titulo {
+    text-align: center;
+    font-family: "Open Sans", sans-serif; }
+  .pdensitometria__contenido {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+    background-color: #d4d4d4; }
+  .pdensitometria__imagenes {
+    height: 330px;
+    width: 680px;
+    margin-left: 550px;
+    margin-top: -240px; }
+  /*Mamografia*/
+  .pmamografia__titulo {
+    text-align: center;
+    font-family: "Open Sans", sans-serif; }
+  .pmamografia__contenido {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+    background-color: #d4d4d4; }
+  .pmamografia__imagenes {
+    height: 540px;
+    width: 450px;
+    margin-left: 650px;
+    margin-top: -370px; }
+  /*Tomografia*/
+  .ptomografia__titulo {
+    text-align: center;
+    font-family: "Open Sans", sans-serif; }
+  .ptomografia__contenido {
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 663px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+    background-color: #d4d4d4; }
+  .ptomografia__imagenes {
+    height: 300px;
+    width: 650px;
+    margin-left: 650px;
+    margin-top: -560px; }
+  /*Resonancia*/
+  .presonancia__titulo {
+    text-align: center;
+    font-family: "Open Sans", sans-serif; }
+  .presonancia__contenido {
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+    background-color: #d4d4d4; }
+  .presonancia__contenido2 {
+    height: 436px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+    background-color: #d4d4d4;
+    margin-left: 50px;
+    margin-top: 10px; }
+  .presonancia__imagenes {
+    height: 300px;
+    width: 450px;
+    margin-left: 650px;
+    margin-top: -660px; }
   /*Extend*/
   .redsocial, .redsocial__ig, .redsocial__fb {
     border: 1px solid black;

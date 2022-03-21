@@ -2,10 +2,6 @@
 @import "fuentes";
 @import "generales";
 @import "nav";
-@import "equipos";
-@import "preparaciones";
-
-
 
     .logo__titulo{
         display:flex;
@@ -31,6 +27,7 @@
 
     .contenido {
         border: 1px black solid;
+        border-radius: 4px;
         background-color: $colorContenido;
         flex-wrap: wrap;
     }
@@ -94,6 +91,7 @@
     grid-area: contnos;
     background-color: $colorContenido;
     border: 1px solid black;
+    border-radius: 4px;
 }
 .titulo__nosotros{
     text-align: center;
@@ -232,6 +230,188 @@
 }
 .footer__logosc{ display: none;}
 
+/*Equipos*/
+    
+        /*Resonancia*/
+        .eresonancia__titulo{
+            text-align: center;
+            font-family: $letraTitulos;
+            font-size: 90px solid black;
+        }  
+        
+        .eresonancia__parrafocontraindicacion{
+            border: 1px solid black;
+            margin-top: 20px;
+            width: 530px;
+            border-radius: 5px;
+            padding: 6px;
+            background-color: $fondoParrafos;
+            font-family: $letraParrafos;
+        }
+        .eresonancia__imagen{
+            height: 30px;
+        }
+        
+        .eresonancia__contenido{
+            border-radius: 5px;
+            border: 1px solid black;
+            font-family: $letraParrafos;
+            background-color: $fondoColor;
+            padding: 6px;
+            background-color: $fondoParrafos;
+            
+    
+        }
+        
+    
+        /*Densitometria*/
+    
+        .edensitometria__titulo{
+            text-align: center;
+            font-family: $letraTitulos;
+        }
+        .edensitometria__parrafocontraindicacion{
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 6px;
+            background-color: $fondoParrafos;
+            font-family: $letraParrafos;
+        }
+        .edensitometria__imagen{
+            height: 30px;
+        }
+        .edensitometria__contenido{
+            border: 1px solid black;
+            border-radius: 5px;
+            font-family: $letraParrafos;
+            padding: 6px;
+            background-color: $fondoParrafos;
+        }
+    
+        /*Tomografia*/
+        .etomografia__titulo{
+            text-align: center;
+            font-family: $letraTitulos;
+        }
+
+        .etomografia__parrafocontraindicacion{
+            border: 1px solid black;
+            margin-top: 40px;
+            width: 500px;
+            border-radius: 5px;
+            padding: 6px;
+            background-color: $fondoParrafos;
+            font-family: $letraParrafos;
+        }
+        .etomografia__imagen{
+            height: 30px;
+        }
+    
+        .etomografia__contenido{
+            border: 1px black solid;
+            border-radius: 5px;
+            font-family: $letraParrafos;
+            padding: 6px;
+            background-color: $fondoParrafos;
+        }
+
+    
+        /*Mamografia*/
+    
+        .emamografia__titulo{
+            text-align: center;
+            font-family: $letraTitulos;
+        }
+
+        .emamografia__parrafocontraindicacion{
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 6px;
+            background-color: $fondoParrafos;
+            font-family: $letraParrafos;
+        }
+        .emamografia__imagen{
+            height: 30px;
+        }
+    
+        .emamografia__contenido{
+            border: 1px black solid;
+            border-radius: 5px;
+            font-family: $letraParrafos;
+            padding: 6px;
+            background-color: $fondoParrafos;
+        }
+        /*PREPARACIONES*/
+        /*Densitometria*/
+
+.pdensitometria__titulo{
+    text-align: center;
+    font-family: $letraTitulos;
+}
+
+
+.pdensitometria__contenido{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: $letraParrafos;
+    padding: 6px;
+    background-color: $fondoParrafos;
+}
+
+
+/*Mamografia*/
+.pmamografia__titulo{
+    text-align: center;
+    font-family: $letraTitulos;
+}
+
+.pmamografia__contenido{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: $letraParrafos;
+    padding: 6px;
+    background-color: $fondoParrafos;
+}
+
+
+/*Tomografia*/ 
+.ptomografia__titulo{
+    text-align: center;
+    font-family: $letraTitulos;
+}
+.ptomografia__contenido{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: $letraParrafos;
+    padding: 6px;
+    background-color: $fondoParrafos;
+}
+
+
+
+/*Resonancia*/
+.presonancia__titulo{
+    text-align: center;
+    font-family: $letraTitulos;
+}
+
+.presonancia__contenido{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: $letraParrafos;
+    padding: 6px;
+    background-color: $fondoParrafos;
+}
+
+.presonancia__contenido2{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: $letraParrafos;
+    padding: 6px;
+    background-color: $fondoParrafos;
+
+    
+}
 
     @media screen and (min-width: 700px){
         .father{
@@ -290,19 +470,20 @@
         }
 
         .formulario{display: grid;                
-        height: 330px;
-        width: 180px;
-        margin-left: -950px;
-        margin-top: 200px;
+        height: 350px;
+        width: 218px;
+        margin-left: -590px;
+        margin-top: 500px;
         border-radius: 1px solid black;
         border: 1px $fondoColor;
         flex-wrap: wrap;
-        font: $letraParrafos;
+        font-family: $letraParrafos;
     }
 
         .mapa{display: flex;
-        margin-top: 30%;
-        margin-right: -26%;
+        margin-top: 570px;
+        margin-right: -30%;
+        margin-left: -250px;
         flex-wrap: wrap;            
         }
 
@@ -310,6 +491,22 @@
             margin-right: 0;
             flex-wrap: wrap;
         }
+
+        
+        .hemologo{
+            height: 150px;
+            width: 250px;
+        }
+        .electrologo{
+            height: 130px;
+            width: 250px;
+        }
+
+        .clinicalogo{
+            height: 100px;
+            width: 250px;
+        }
+        
         footer{
             background-color: $fondoColor;
             margin-bottom: 0;
@@ -400,6 +597,7 @@
             grid-area: publinos;
             background-color: $colorContenido;
             border: 1px solid black;
+            border-radius: 4px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -434,11 +632,19 @@
         background-color: $fondoColor;
         font-family: $letraParrafos;
         font-size: 105px solid $colorTexto;
+        color: $colorTexto;
     }
 
     .formulario__contacto{
-        margin-top: 100px;
-        margin-left: 25px;
+        display: grid;
+        margin-top: 40px;                
+        height: 378px;
+        width: 202px;
+        border: 1px;
+        border-radius: 1px solid black;
+        flex-wrap: wrap;
+        font-family: $letraParrafos;
+        background-color: $fondoParrafos;
     }
 
     .contenido__contacto{
@@ -446,7 +652,7 @@
     }
 
     .mapa__contacto{
-        margin-left: 315px;
+        margin-left: 215px;
         margin-top: -106px
         ;
     }
@@ -455,11 +661,12 @@
         width: 450px;
         height: 320px;
     }
+    
 
     @media only screen and (min-width: 1024px){
-        .father{
+        .father{ 
             grid-template-columns: 1fr, 3fr, 1fr;
-            grid-template-rows: 2fr, 3fr, 3fr,  2fr;
+            grid-template-rows: 1fr, 1fr, 1fr,  1fr;
             grid-template-areas:
             "header       header      header"
             "imagenes     imagenes    publicidad"
@@ -476,22 +683,10 @@
         }
     
         .imagenes{
-            display: flex;
-            height: 330px;
-            width: 430px;
-            padding: 7px;
-            margin-left: 350px;
-            margin-top: -5px;
-            
+            height: 400px;
+
             }
     
-        .encefalo{height: 330px;}
-
-        .cervical{ 
-            height: 330px;
-            width: 450px;
-
-        }
         .contenido{
             
             border: 1px solid black;
@@ -500,7 +695,7 @@
     
         .contenido__parrafo1{
             margin-bottom: 50px;
-            height: 530px;
+            height: 510px;
             font-family: $letraParrafos;
         }
     
@@ -508,13 +703,18 @@
             height: 410px;
             width: 260px;
             padding: 10px;
-            margin-left: -890px;
+            margin-left: -948px;
+        }
+
+        .mapa{
+            margin-left: 20px;
         }
     
     
     
         .publicidad{
             border: 1px solid black;
+            border-radius: 4px;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
@@ -522,7 +722,7 @@
         }
         
         .hemologo{
-            height: 130px;
+            height: 150px;
             width: 250px;
         }
         .electrologo{
@@ -531,9 +731,10 @@
         }
 
         .clinicalogo{
-            height: 130px;
+            height: 100px;
             width: 250px;
         }
+        
         
 
     
@@ -788,6 +989,277 @@
                 text-align: center;
             }
             
+
+        /*Equipos*/
+    
+        /*Resonancia*/
+        .eresonancia__titulo{
+            text-align: center;
+            font-family: $letraTitulos;
+            font-size: 90px solid black;
+        }  
+        
+        .eresonancia__parrafocontraindicacion{
+            border: 1px solid black;
+            margin-top: 20px;
+            width: 530px;
+            border-radius: 5px;
+            padding: 6px;
+            background-color: $fondoParrafos;
+            font-family: $letraParrafos;
+            margin-left: 50px;
+        }
+        .eresonancia__imagen{
+            height: 30px;
+        }
+        
+        .eresonancia__contenido{
+            margin-left: 50px;
+            margin-top: 10px;
+            @include size (530px, 495px);
+            border-radius: 5px;
+            border: 1px solid black;
+            font-family: $letraParrafos;
+            background-color: $fondoColor;
+            padding: 6px;
+            background-color: $fondoParrafos;
+            
+    
+        }
+        
+    
+        .resoimagenes{
+            @include size (450px, 400px);
+            margin-left: 810px;
+            margin-top: -640px;
+        }
+    
+        /*Densitometria*/
+    
+        .edensitometria__titulo{
+            text-align: center;
+            font-family: $letraTitulos;
+        }
+        .edensitometria__parrafocontraindicacion{
+            border: 1px solid black;
+            margin-top: 40px;
+            width: 500px;
+            border-radius: 5px;
+            padding: 6px;
+            background-color: $fondoParrafos;
+            font-family: $letraParrafos;
+            margin-left: 50px;
+        }
+        .edensitometria__imagen{
+            height: 30px;
+        }
+        .edensitometria__contenido{
+            margin-left: 50px;
+            margin-top: 100px;
+            width: 500px;
+            border: 1px solid black;
+            border-radius: 5px;
+            font-family: $letraParrafos;
+            padding: 6px;
+            background-color: $fondoParrafos;
+        }
+    
+        .edensitometria__imagenes{
+            @include size (450px, 300px);
+            margin-left: 730px;
+            margin-top: -560px;
+            
+        }
+    
+        /*Tomografia*/
+        .etomografia__titulo{
+            text-align: center;
+            font-family: $letraTitulos;
+        }
+
+        .etomografia__parrafocontraindicacion{
+            border: 1px solid black;
+            margin-top: 40px;
+            width: 500px;
+            border-radius: 5px;
+            padding: 6px;
+            background-color: $fondoParrafos;
+            font-family: $letraParrafos;
+            margin-left: 50px;
+        }
+        .etomografia__imagen{
+            height: 30px;
+        }
+    
+        .etomografia__contenido{
+            margin-left: 50px;
+            width: 500px;
+            margin-top: 30px;
+            border: 1px black solid;
+            border-radius: 5px;
+            font-family: $letraParrafos;
+            padding: 6px;
+            background-color: $fondoParrafos;
+        }
+        .etomografia__imagenes{
+            @include size (500px, 180px);
+            margin-left: 730px;
+            margin-top: -621px;
+    
+        }
+    
+        /*Mamografia*/
+    
+        .emamografia__titulo{
+            text-align: center;
+            font-family: $letraTitulos;
+        }
+
+        .emamografia__parrafocontraindicacion{
+            border: 1px solid black;
+            margin-top: 40px;
+            width: 500px;
+            border-radius: 5px;
+            padding: 6px;
+            background-color: $fondoParrafos;
+            font-family: $letraParrafos;
+            margin-left: 50px;
+        }
+        .emamografia__imagen{
+            height: 30px;
+        }
+    
+        .emamografia__contenido{
+            margin-top: 70px;
+            margin-left: 50px;
+            width: 500px;
+            border: 1px black solid;
+            border-radius: 5px;
+            font-family: $letraParrafos;
+            padding: 6px;
+            background-color: $fondoParrafos;
+        }
+    
+        .emamografia__imagenes{
+            @include size (450px, 300px);
+            margin-left: 670px;
+            margin-top: -550px;
+        }
+
+        /*Densitometria*/
+
+.pdensitometria__titulo{
+    text-align: center;
+    font-family: $letraTitulos;
+}
+
+
+.pdensitometria__contenido{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: $letraParrafos;
+    padding: 6px;
+    background-color: $fondoParrafos;
+}
+
+.pdensitometria__imagenes{
+    @include size (680px, 330px);
+    
+    margin-left: 550px;
+    margin-top: -240px;
+    
+}
+
+/*Mamografia*/
+.pmamografia__titulo{
+    text-align: center;
+    font-family: $letraTitulos;
+}
+
+.pmamografia__contenido{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: $letraParrafos;
+    padding: 6px;
+    background-color: $fondoParrafos;
+}
+
+.pmamografia__imagenes{
+    @include size (450px, 540px);
+    
+    margin-left: 650px;
+    margin-top: -370px;
+    
+}
+
+/*Tomografia*/ 
+.ptomografia__titulo{
+    text-align: center;
+    font-family: $letraTitulos;
+}
+.ptomografia__contenido{
+    margin-left: 50px;
+    margin-top: 10px;
+    @include size (500px,663px);
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: $letraParrafos;
+    padding: 6px;
+    background-color: $fondoParrafos;
+}
+
+.ptomografia__imagenes{
+    @include size (650px, 300px);
+    
+    margin-left: 650px;
+    margin-top: -560px;
+    
+}
+
+
+/*Resonancia*/
+.presonancia__titulo{
+    text-align: center;
+    font-family: $letraTitulos;
+}
+
+.presonancia__contenido{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: $letraParrafos;
+    padding: 6px;
+    background-color: $fondoParrafos;
+}
+
+.presonancia__contenido2{
+    @include size (500px, 436px);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: $letraParrafos;
+    padding: 6px;
+    background-color: $fondoParrafos;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+}
+
+.presonancia__imagenes{
+    @include size(450px, 300px);
+    
+    margin-left: 650px;
+    margin-top: -660px;
+    
+}
 
             /*Extend*/
 
