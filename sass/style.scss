@@ -69,19 +69,19 @@
         background-color: $colorContenido;
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: space-between;
     }
 
     .hemologo{
-        @include size(180px,100px);
+        @include size(170px,100px);
     }
 
     .electrologo{
-        @include size(180px, 100px);
+        @include size(170px, 100px);
     }
 
     .clinicalogo{
-        @include size(180px, 100px);
+        @include size(170px, 100px);
     }
 
     footer{
@@ -183,7 +183,19 @@
     background-color: $colorContenido;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+.logohemo{
+    @include size(150px,80px);
+}
+
+.logoelectrofisiologos{
+    @include size(150px, 80px);
+}
+
+.logoclinica{
+    @include size(150px, 80px);
 }
 
 .footer__nosotros{

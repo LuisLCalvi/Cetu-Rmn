@@ -93,19 +93,19 @@ footer {
   background-color: white;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start; }
+  justify-content: space-between; }
 
 .hemologo {
   height: 100px;
-  width: 180px; }
+  width: 170px; }
 
 .electrologo {
   height: 100px;
-  width: 180px; }
+  width: 170px; }
 
 .clinicalogo {
   height: 100px;
-  width: 180px; }
+  width: 170px; }
 
 footer {
   grid-area: footer;
@@ -188,7 +188,19 @@ footer {
   background-color: white;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start; }
+  justify-content: space-between; }
+
+.logohemo {
+  height: 80px;
+  width: 150px; }
+
+.logoelectrofisiologos {
+  height: 80px;
+  width: 150px; }
+
+.logoclinica {
+  height: 80px;
+  width: 150px; }
 
 .footer__nosotros {
   grid-area: footnos;
