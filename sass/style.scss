@@ -230,19 +230,19 @@
     "footcon";
 }
 
-.formulario__contacto{
-    display: grid;
-    font-size: 17px solid black $letraParrafos;
-    justify-content: flex-start;
-    border-radius: 10px;
-    text-align: left;
-    flex-wrap: wrap;
-    border: 1px solid black;
 
-}
 
 .contenido__contacto{grid-area: contencon;}
 
+.formulario__contacto{
+    display: grid;
+    justify-content: flex-start;
+    text-align: start;
+    font-family: $letraParrafos;
+    padding: 10px; 
+    background-color: $fondoParrafos;
+    box-shadow: 5px black;
+    }
 
 .numeros__contacto{
     grid-area: numeros;
@@ -681,8 +681,8 @@
     .formulario__contacto{
         display: grid;
         margin-top: 40px;                
-        height: 378px;
-        width: 202px;
+        height: 398px;
+        width: 222px;
         border: 1px;
         border-radius: 1px solid black;
         flex-wrap: wrap;
@@ -739,6 +739,7 @@
         .contenido__parrafo1{
             margin-bottom: 50px;
             height: 510px;
+            margin-left: 160px;
             font-family: $letraParrafos;
         }
     
@@ -746,11 +747,11 @@
             height: 410px;
             width: 260px;
             padding: 10px;
-            margin-left: -948px;
+            margin-left: -938px;
         }
 
         .mapa{
-            margin-left: 20px;
+            margin-left: -270px;
         }
     
     
@@ -841,6 +842,8 @@
             margin-left: 180px;
             margin-top: 55px;
             padding: 7px;
+            box-shadow: 3px 8px 10px black;
+
             
         }
 
@@ -856,6 +859,8 @@
             text-align: justify;
             padding: 7px;
             border-radius: 5px;
+            box-shadow: 2px 5px 10px black;
+
         }
 
         .imagen__nosparrafo2{
@@ -878,6 +883,8 @@
             border-radius: 5px;
             text-align: justify;
             padding: 7px;
+            box-shadow: 2px 5px 10px black;
+
         }
         .imagen__nosparrafo3{
             margin-left: 130px;
@@ -897,6 +904,8 @@
             border-radius: 5px;
             text-align: justify;
             padding: 7px;
+            box-shadow: 2px 5px 10px black;
+
         }
         .imagen__nosparrafo4{
             margin-left: 100px;
@@ -987,6 +996,10 @@
             font-family: $letraParrafos;
             padding: 10px; 
             background-color: $fondoParrafos;
+            border: 1px black solid;
+            border-radius: 5px;
+            box-shadow: 6px 10px 10px black;
+
             }
 
     
@@ -1031,17 +1044,7 @@
             .footer__emailc{
             margin-left: 75%;
             }
-            .contacto__cv{
-                border: 1px solid black;
-                border-radius: 5px;
-                margin-left: 400px;
-                margin-top: -580px;
-                font-family: $letraParrafos;
-                background-color: $fondoParrafos;
-                @include size (380px, 180px);
-                display: grid;
-                
-            }
+
             .formulario__titulo2{
                 text-align: center;
             }

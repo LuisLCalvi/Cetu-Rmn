@@ -221,17 +221,17 @@ footer {
   display: grid;
   grid-template-areas: "header" "contencon" "numeros" "footcon"; }
 
-.formulario__contacto {
-  display: grid;
-  font-size: 17px solid black Arial, Helvetica, sans-serif;
-  justify-content: flex-start;
-  border-radius: 10px;
-  text-align: left;
-  flex-wrap: wrap;
-  border: 1px solid black; }
-
 .contenido__contacto {
   grid-area: contencon; }
+
+.formulario__contacto {
+  display: grid;
+  justify-content: flex-start;
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  background-color: #d4d4d4;
+  box-shadow: 5px black; }
 
 .numeros__contacto {
   grid-area: numeros;
@@ -565,8 +565,8 @@ footer {
   .formulario__contacto {
     display: grid;
     margin-top: 40px;
-    height: 378px;
-    width: 202px;
+    height: 398px;
+    width: 222px;
     border: 1px;
     border-radius: 1px solid black;
     flex-wrap: wrap;
@@ -599,14 +599,15 @@ footer {
   .contenido__parrafo1 {
     margin-bottom: 50px;
     height: 510px;
+    margin-left: 160px;
     font-family: Arial, Helvetica, sans-serif; }
   .formulario {
     height: 410px;
     width: 260px;
     padding: 10px;
-    margin-left: -948px; }
+    margin-left: -938px; }
   .mapa {
-    margin-left: 20px; }
+    margin-left: -270px; }
   .publicidad {
     border: 1px solid black;
     border-radius: 4px;
@@ -663,7 +664,8 @@ footer {
     text-align: justify;
     margin-left: 180px;
     margin-top: 55px;
-    padding: 7px; }
+    padding: 7px;
+    box-shadow: 3px 8px 10px black; }
   .parrafo__nosotros2 {
     width: 350px;
     margin-left: 25px;
@@ -673,7 +675,8 @@ footer {
     border: 1px black solid;
     text-align: justify;
     padding: 7px;
-    border-radius: 5px; }
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px black; }
   .imagen__nosparrafo2 {
     margin-left: 130px; }
   .titulo__nosparrafo2 {
@@ -688,7 +691,8 @@ footer {
     border: 1px black solid;
     border-radius: 5px;
     text-align: justify;
-    padding: 7px; }
+    padding: 7px;
+    box-shadow: 2px 5px 10px black; }
   .imagen__nosparrafo3 {
     margin-left: 130px; }
   .titulo__nosparrafo3 {
@@ -703,7 +707,8 @@ footer {
     border: 1px black solid;
     border-radius: 5px;
     text-align: justify;
-    padding: 7px; }
+    padding: 7px;
+    box-shadow: 2px 5px 10px black; }
   .imagen__nosparrafo4 {
     margin-left: 100px; }
   .titulo__nosparrafo4 {
@@ -763,7 +768,10 @@ footer {
     width: 227px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
-    background-color: #d4d4d4; }
+    background-color: #d4d4d4;
+    border: 1px black solid;
+    border-radius: 5px;
+    box-shadow: 6px 10px 10px black; }
   .contenido__contacto {
     background-color: white;
     border: 1px solid black; }
@@ -790,16 +798,6 @@ footer {
     margin-left: 75%; }
   .footer__emailc {
     margin-left: 75%; }
-  .contacto__cv {
-    border: 1px solid black;
-    border-radius: 5px;
-    margin-left: 400px;
-    margin-top: -580px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #d4d4d4;
-    height: 180px;
-    width: 380px;
-    display: grid; }
   .formulario__titulo2 {
     text-align: center; }
   /*Equipos*/
